@@ -1,3 +1,14 @@
+
+- authors: Viviroli D, Kummu M, Meybeck M, Kallio M, Wada Y
+  year: 2020
+  title: "Increasing dependence of lowland populations on mountain water resources"
+  journal: Nature Sustainability
+  volume: published online
+  doi: 10.1038/s41893-020-0559-9
+  link: https://dx.doi.org/10.5061/dryad.ns1rn8pnt
+  link_text: Access associated data
+  link_external: Y
+
 - authors: Immerzeel WW, Lutz AF, Andrade M, Bahl A, Biemans H, Bolch T, Hyde S, Brumby S, Davies BJ, Elmore AC, Emmer A, Feng M, Fernández A, Haritashya U, Kargel, JS, Koppes M, Kraaijenbrink PDA, Kulkarni AV, Mayewski P, Nepal S, Pacheco P, Painter TH, Pellicciotti F, Rajaram H, Rupper S, Sinisalo A, Shrestha AB, Viviroli D, Wada Y, Xiao C, Yao T, Baillie JEM
   year: 2020
   title: "Importance and vulnerability of the world’s water towers"
@@ -6,12 +17,15 @@
   issue: 7790
   pages: 364–369
   doi: 10.1038/s41586-019-1822-y
+  link: "https://rdcu.be/b5nLf"
+  link_text: Access article online
+  link_external: Y
 
 - authors: Westerberg IK, Sikorska-Senoner AE, Viviroli D, Vis J, Seibert J
   year: 2020
   title: Hydrologic model calibration with uncertain discharge data
   journal: Hydrological Sciences Journal
-  volume: accepted
+  volume: in press
   doi: 10.1080/02626667.2020.1735638
   pdf: /documents/Westerberg_et_al_2020_HSJ.pdf
 

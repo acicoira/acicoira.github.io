@@ -6,7 +6,7 @@
 
 - title: Publications
   url: /publications.html
-  sub_n: 9
+  sub_n: 10
   sub1_text: Preprints
   sub1_anchor: PP
   sub2_text: Peer-reviewed
@@ -25,6 +25,8 @@
   sub8_anchor: CP
   sub9_text: Project reports
   sub9_anchor: PR
+  sub10_text: Data sets
+  sub10_anchor: DS
 
 - title: Projects
   url: /projects.html

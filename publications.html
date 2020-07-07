@@ -54,7 +54,7 @@ title: Publications
 				{{ publication.title }}.
 			{% endif %}
 			<i>{{ publication.journal }}</i>,
-			{% if publication.volume == "in press" or publication.volume == "accepted" %}
+			{% if publication.volume == "in press" or publication.volume == "accepted" or publication.volume == "published online" %}
 				{% if publication.doi %}
 					{{ publication.volume }},
 					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
@@ -278,6 +278,21 @@ title: Publications
 				{{ publication.report }}.
 			{% endif %}
 			{{ publication.institution }}.
+			{% include publications_pdf_and_notes.html %}
+		</li>
+	{% endfor %}
+</ol>
+
+<h2>Data sets</h2>
+<a class="anchor" id="DS"></a>
+<ol reversed="">
+	{% for publication in site.data.publications_datasets %}
+		<li>
+			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+			{{ publication.year }}.</b>
+			<i>{{ publication.title }}</i>.
+			{{ publication.repository }},
+			<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
 			{% include publications_pdf_and_notes.html %}
 		</li>
 	{% endfor %}
