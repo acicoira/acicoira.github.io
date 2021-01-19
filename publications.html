@@ -195,13 +195,26 @@ title: Publications
 			{% elsif publication.series and publication.volume %}
 				<i>{{ publication.series }}</i>, <b>{{ publication.volume }}</b>.
 			{% endif %}
-			{% if    publication.publisher and publication.place         and publication.isbn         %}
-				{{ publication.publisher }}, {{ publication.place }}, ISBN {{ publication.isbn }}.
-			{% elsif publication.publisher and publication.place == null and publication.isbn         %}
-				{{ publication.publisher }}, ISBN {{ publication.isbn }}.
-			{% elsif publication.publisher and publication.place         and publication.isbn == null %}
+
+			{% if publication.isbn %}
+				{% capture ISBNorDOI %}
+					ISBN {{ publication.isbn }}.
+				{% endcapture %}
+			{% elsif publication.doi %}
+				{% capture ISBNorDOI %}
+					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
+				{% endcapture %}
+			{% else %}
+				{% assign ISBNorDOI = null %}
+			{% endif %}
+
+			{% if    publication.publisher and publication.place         and ISBNorDOI %}
+				{{ publication.publisher }}, {{ publication.place }}, {{ISBNorDOI}}
+			{% elsif publication.publisher and publication.place == null and ISBNorDOI %}
+				{{ publication.publisher }}, {{ ISBNorDOI }}
+			{% elsif publication.publisher and publication.place         and ISBNorDOI == null %}
 				{{ publication.publisher }}, {{ publication.place }}.
-			{% elsif publication.publisher and publication.place == null and publication.isbn == null %}
+			{% elsif publication.publisher and publication.place == null and ISBNorDOI == null %}
 				{{ publication.publisher }}.
 			{% endif %}
 			{% include publications_pdf_and_notes.html %}
