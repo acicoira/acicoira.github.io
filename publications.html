@@ -187,36 +187,32 @@ title: Publications
 			{% if publication.editors %}
 				<b>{{ publication.editors | replace:'Viviroli D','<u>Viviroli D</u>' }}.</b>
 			{% endif %}
+
 			{% if publication.booktitle %}
 				<i>{{ publication.booktitle }}</i>.
-				{% if publication.series and publication.volume %}
-					{{ publication.series }}, <b>{{ publication.volume }}</b>.
-				{% endif %}
-			{% elsif publication.series and publication.volume %}
-				<i>{{ publication.series }}</i>, <b>{{ publication.volume }}</b>.
-			{% endif %}
-
-			{% if publication.isbn %}
-				{% capture ISBNorDOI %}
-					ISBN {{ publication.isbn }}.
-				{% endcapture %}
-			{% elsif publication.doi %}
-				{% capture ISBNorDOI %}
-					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a>.
-				{% endcapture %}
+				{% if publication.series %}{{ publication.series }}{% if publication.volume %}, <b>{{ publication.volume }}</b>{% endif %}.{% endif %}
 			{% else %}
-				{% assign ISBNorDOI = null %}
+				{% if publication.series %}<i>{{ publication.series }}</i>{% if publication.volume %}, <b>{{ publication.volume }}</b>{% endif %}.{% endif %}
 			{% endif %}
 
-			{% if    publication.publisher and publication.place         and ISBNorDOI %}
-				{{ publication.publisher }}, {{ publication.place }}, {{ISBNorDOI}}
-			{% elsif publication.publisher and publication.place == null and ISBNorDOI %}
-				{{ publication.publisher }}, {{ ISBNorDOI }}
-			{% elsif publication.publisher and publication.place         and ISBNorDOI == null %}
-				{{ publication.publisher }}, {{ publication.place }}.
-			{% elsif publication.publisher and publication.place == null and ISBNorDOI == null %}
-				{{ publication.publisher }}.
-			{% endif %}
+			{{ publication.publisher }}<!--
+   -->{% if publication.place %}<!--
+     -->, {{ publication.place }}<!--
+	 -->{% endif %}<!--
+   -->{% if publication.doi %}<!--
+     -->, <a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a><!--
+   -->{% elsif publication.isbn %}<!--
+     -->, ISBN {{ publication.isbn }}<!--
+	 -->{% endif %}<!--
+   -->{% if publication.pages %}, pp. {{publication.pages}}<!--
+   -->{% elsif publication.tafel %}<!--
+      -->, Tafel <b>{{publication.tafel}}</b><!--
+   -->{% endif %}<!--
+	 -->{% if publication.chapterdoi %}<!--
+      -->, <a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.chapterdoi }}" target='_blank'>doi:{{ publication.chapterdoi }}</a><!--
+	 -->{% endif %}<!--
+   -->.
+
 			{% include publications_pdf_and_notes.html %}
 		</li>
 	{% endfor %}
@@ -290,15 +286,24 @@ title: Publications
 			{% elsif publication.series and publication.volume %}
 				<i>{{ publication.series }}</i>, <b>{{ publication.volume }}</b>.
 			{% endif %}
-			{% if    publication.publisher and publication.place         and publication.isbn         %}
-				{{ publication.publisher }}, {{ publication.place }}, ISBN {{ publication.isbn }}{% if publication.pages%}, pp. {{publication.pages}}{% endif %}.
-			{% elsif publication.publisher and publication.place == null and publication.isbn         %}
-				{{ publication.publisher }}, ISBN {{ publication.isbn }}{% if publication.pages%}, pp. {{publication.pages}}{% endif %}.
-			{% elsif publication.publisher and publication.place         and publication.isbn == null %}
-				{{ publication.publisher }}, {{ publication.place }}{% if publication.pages%}, pp. {{publication.pages}}{% endif %}.
-			{% elsif publication.publisher and publication.place == null and publication.isbn == null %}
-				{{ publication.publisher }}{% if publication.pages%}, pp. {{publication.pages}}{% endif %}.
-			{% endif %}
+
+			{{ publication.publisher }}<!--
+   -->{% if publication.place %}<!--
+     -->, {{ publication.place }}<!--
+	 -->{% endif %}<!--
+   -->{% if publication.doi %}<!--
+     -->, <a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a><!--
+   -->{% elsif publication.isbn %}<!--
+     -->, ISBN {{ publication.isbn }}<!--
+	 -->{% endif %}<!--
+   -->{% if publication.pages %}, pp. {{publication.pages}}<!--
+   -->{% elsif publication.tafel %}<!--
+      -->, Tafel <b>{{publication.tafel}}</b><!--
+   -->{% endif %}<!--
+	 -->{% if publication.chapterdoi %}<!--
+      -->, <a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.chapterdoi }}" target='_blank'>doi:{{ publication.chapterdoi }}</a><!--
+	 -->{% endif %}<!--
+   -->.
 			{% include publications_pdf_and_notes.html %}
 		</li>
 	{% endfor %}
