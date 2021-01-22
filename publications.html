@@ -22,7 +22,10 @@ title: Publications
 		{% for publication in site.data.publications_papers-preprints %}
 			<li>
 				{% if publication.new %}
-				<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+					<div class="tooltip">
+						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+						<span class="tooltiptext">added recently</span>
+					</div>
 				{% endif %}
 				<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 				{{ publication.year }}.</b>
@@ -49,10 +52,10 @@ title: Publications
 	{% for publication in site.data.publications_papers-peer-reviewed %}
 		<li>
 			{% if publication.new %}
-			<div class="tooltip">
-				<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
-				<span class="tooltiptext">added recently</span>
-			</div>
+				<div class="tooltip">
+					<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+					<span class="tooltiptext">added recently</span>
+				</div>
 			{% endif %}
 			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
@@ -98,7 +101,10 @@ title: Publications
 	{% for publication in site.data.publications_authored-monographs %}
 		<li>
 			{% if publication.new %}
-			<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+				<div class="tooltip">
+					<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+					<span class="tooltiptext">added recently</span>
+				</div>
 			{% endif %}
 			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
@@ -131,7 +137,10 @@ title: Publications
 	{% for publication in site.data.publications_edited-journals %}
 		<li>
 			{% if publication.new %}
-			<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+				<div class="tooltip">
+					<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+					<span class="tooltiptext">added recently</span>
+				</div>
 			{% endif %}
 			<b>{{ publication.editors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
@@ -151,7 +160,10 @@ title: Publications
 	{% for publication in site.data.publications_edited-books %}
 		<li>
 			{% if publication.new %}
-			<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+				<div class="tooltip">
+					<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+					<span class="tooltiptext">added recently</span>
+				</div>
 			{% endif %}
 			<b>{{ publication.editors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
@@ -179,7 +191,10 @@ title: Publications
 	{% for publication in site.data.publications_book-chapters %}
 		<li>
 			{% if publication.new %}
-			<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+				<div class="tooltip">
+					<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+					<span class="tooltiptext">added recently</span>
+				</div>
 			{% endif %}
 			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
@@ -226,7 +241,10 @@ title: Publications
 	{% for publication in site.data.publications_papers-further %}
 		<li>
 			{% if publication.new %}
-			<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+				<div class="tooltip">
+					<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+					<span class="tooltiptext">added recently</span>
+				</div>
 			{% endif %}
 			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
@@ -265,7 +283,10 @@ title: Publications
 	{% for publication in site.data.publications_conference-proceedings %}
 		<li>
 			{% if publication.new %}
-			<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+				<div class="tooltip">
+					<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+					<span class="tooltiptext">added recently</span>
+				</div>
 			{% endif %}
 			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
@@ -317,7 +338,10 @@ title: Publications
 	{% for publication in site.data.publications_project-reports %}
 		<li>
 			{% if publication.new %}
-			<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+				<div class="tooltip">
+					<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+					<span class="tooltiptext">added recently</span>
+				</div>
 			{% endif %}
 			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
@@ -337,7 +361,10 @@ title: Publications
 	{% for publication in site.data.publications_datasets %}
 		<li>
 			{% if publication.new %}
-			<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+				<div class="tooltip">
+					<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+					<span class="tooltiptext">added recently</span>
+				</div>
 			{% endif %}
 			<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 			{{ publication.year }}.</b>
