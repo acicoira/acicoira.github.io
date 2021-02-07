@@ -7,7 +7,7 @@
 - title: Flood events from continuous simulation in the context of dam safety
   subtitle: Development of statistical methods for evaluating long-term hydrometeorological simulation results
   where: University of Zurich
-  collaboration:  Department of Mathematics, University of Zurich
+  collaboration: Department of Mathematics, University of Zurich
   funding: Swiss Federal Office of Energy (SFOE)
 
 - title: Flood hazards and risk trends along the Aare River under a changing climate
@@ -25,6 +25,14 @@
   collaboration: Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf§Swiss Federal Institute of Technology, Zurich (ETHZ)§Universities of Bern, Fribourg, Geneva and Lausanne
   funding: Swiss Federal Office for the Environment (FOEN)
   moreinfo_link: "https://www.nccs.admin.ch/nccs/de/home/das-nccs/themenschwerpunkte/hydro-ch2018.html"
+  moreinfo_text: Read more
+  moreinfo_external: Y
+
+- title: "Mountains: Water towers for food production?"
+  subtitle: Model-based assessments regarding the importance of mountain runoff for irrigated agriculture and food production downstream
+  where: University of Zurich
+  collaboration: Aalto University, Espoo, SF§International Institute for Applied Systems Analysis (IIASA), Laxenburg, AT§University of Bremen, DE§University of Innsbruck, AT
+  moreinfo_link: "https://www.geo.uzh.ch/en/units/h2k/research/PhD-Research-Projects/Sarah-Hanus.html"
   moreinfo_text: Read more
   moreinfo_external: Y
 

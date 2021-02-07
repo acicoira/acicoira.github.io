@@ -66,6 +66,18 @@
   {% endif %}
 {% endif %}
 
+<!-- Media coverage -->
+<!-- Insert field in form of "mediacoveragereferrer: mediacoverage_Vivirolietal2020" !! without .yml !! -->
+<!-- In corresponding .yml file add comma for all items except for last... -->
+{% if publication.mediacoveragereferrer %}
+  <br>
+  <span style="display:block; height:0.50em;"></span>
+  > Media coverage:
+  {% for item in site.data[publication.mediacoveragereferrer] %}
+    <a target='_blank' rel="noopener noreferrer" href={{ item.mediacoveragelink }}>{{ item.mediacoverage }}</a>
+  {% endfor %}
+{% endif %}
+
 {% if publication.notes %}
   <br>
   <span style="display:block; height:0.50em;"></span>

@@ -14,8 +14,15 @@ title: Publications
 	<ul>
 </div>
 
+<!-- Altmetric badges -->
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+<!-- OPTIONS -->
 {% assign shownewonly = false %}
 {% assign oldestyearshown = 1900 %}
+{% assign showdimensions = false %}
+{% assign showaltmetric = false %}
 
 {% if site.data.publications_papers-preprints %}
 
@@ -23,9 +30,9 @@ title: Publications
 	<a class="anchor" id="PP"></a>
 	<ol reversed="">
 		{% for publication in site.data.publications_papers-preprints %}
-			{% if publication.year >= oldestyearshown or publication.new and shownewonly == true %}
+			{% if publication.year >= oldestyearshown or publication.new == "Y" and shownewonly == true %}
 			<li>
-					{% if publication.new %}
+					{% if publication.new == "Y" %}
 						<div class="tooltip">
 							<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
 							<span class="tooltiptext">added recently</span>
@@ -55,9 +62,9 @@ title: Publications
 <a class="anchor" id="JP"></a>
 <ol reversed="">
 	{% for publication in site.data.publications_papers-peer-reviewed %}
-		{% if publication.year >= oldestyearshown or publication.new and shownewonly == true %}
+		{% if publication.year >= oldestyearshown or publication.new == "Y" and shownewonly == true %}
 			<li>
-				{% if publication.new %}
+				{% if publication.new == "Y" %}
 					<div class="tooltip">
 						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
 						<span class="tooltiptext">added recently</span>
@@ -94,6 +101,13 @@ title: Publications
 					<b>{{ publication.volume }}</b>,
 					{{ publication.pages }}.
 				{% endif %}
+				{% if showdimensions and publication.doi %}
+				  <a class="__dimensions_badge_embed__" data-doi="{{ publication.doi }}" data-hide-zero-citations="true" data-style="small_rectangle"></a>
+					<!-- <a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ publication.doi }}" data-hide-no-mentions="true"></a> -->
+				{% endif %}
+				{% if showaltmetric and publication.doi %}
+					<a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ publication.doi }}" data-hide-no-mentions="true"></a>
+				{% endif %}
 				{% include publications_pdf_and_notes.html %}
 			</li>
 		{% endif %}
@@ -106,9 +120,9 @@ title: Publications
 <a class="anchor" id="BM"></a>
 <ol reversed="">
 	{% for publication in site.data.publications_authored-monographs %}
-		{% if publication.year >= oldestyearshown or publication.new and shownewonly == true %}
+		{% if publication.year >= oldestyearshown or publication.new == "Y" and shownewonly == true %}
 			<li>
-				{% if publication.new %}
+				{% if publication.new == "Y" %}
 					<div class="tooltip">
 						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
 						<span class="tooltiptext">added recently</span>
@@ -144,9 +158,9 @@ title: Publications
 <a class="anchor" id="JE"></a>
 <ol reversed="">
 	{% for publication in site.data.publications_edited-journals %}
-		{% if publication.year >= oldestyearshown or publication.new and shownewonly == true %}
+		{% if publication.year >= oldestyearshown or publication.new == "Y" and shownewonly == true %}
 			<li>
-				{% if publication.new %}
+				{% if publication.new == "Y" %}
 					<div class="tooltip">
 						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
 						<span class="tooltiptext">added recently</span>
@@ -169,9 +183,9 @@ title: Publications
 <a class="anchor" id="BE"></a>
 <ol reversed="">
 	{% for publication in site.data.publications_edited-books %}
-		{% if publication.year >= oldestyearshown or publication.new and shownewonly == true %}
+		{% if publication.year >= oldestyearshown or publication.new == "Y" and shownewonly == true %}
 			<li>
-				{% if publication.new %}
+				{% if publication.new == "Y" %}
 					<div class="tooltip">
 						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
 						<span class="tooltiptext">added recently</span>
@@ -202,9 +216,9 @@ title: Publications
 <a class="anchor" id="BC"></a>
 <ol reversed="">
 	{% for publication in site.data.publications_book-chapters %}
-		{% if publication.year >= oldestyearshown or publication.new and shownewonly == true %}
+		{% if publication.year >= oldestyearshown or publication.new == "Y" and shownewonly == true %}
 			<li>
-				{% if publication.new %}
+				{% if publication.new == "Y" %}
 					<div class="tooltip">
 						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
 						<span class="tooltiptext">added recently</span>
@@ -242,6 +256,14 @@ title: Publications
 		 -->{% endif %}<!--
 	   -->.
 
+			 {% if showdimensions and publication.chapterdoi %}
+				 <a class="__dimensions_badge_embed__" data-doi="{{ publication.chapterdoi }}" data-hide-zero-citations="true" data-style="small_rectangle"></a>
+				 <!-- <a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ publication.doi }}" data-hide-no-mentions="true"></a> -->
+			 {% endif %}
+			 {% if showaltmetric and publication.chapterdoi %}
+				 <a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ publication.chapterdoi }}" data-hide-no-mentions="true"></a>
+			 {% endif %}
+
 				{% include publications_pdf_and_notes.html %}
 			</li>
 		{% endif %}
@@ -254,9 +276,9 @@ title: Publications
 <a class="anchor" id="JF"></a>
 <ol reversed="">
 	{% for publication in site.data.publications_papers-further %}
-		{% if publication.year >= oldestyearshown or publication.new and shownewonly == true %}
+		{% if publication.year >= oldestyearshown or publication.new == "Y" and shownewonly == true %}
 			<li>
-				{% if publication.new %}
+				{% if publication.new == "Y" %}
 					<div class="tooltip">
 						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
 						<span class="tooltiptext">added recently</span>
@@ -286,6 +308,13 @@ title: Publications
 					<i>{{ publication.journal }}</i>,
 					<b>{{ publication.volume }}</b>.
 				{% endif %}
+				{% if showdimensions and publication.doi %}
+					<a class="__dimensions_badge_embed__" data-doi="{{ publication.doi }}" data-hide-zero-citations="true" data-style="small_rectangle"></a>
+					<!-- <a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ publication.doi }}" data-hide-no-mentions="true"></a> -->
+				{% endif %}
+				{% if showaltmetric and publication.doi %}
+					<a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ publication.doi }}" data-hide-no-mentions="true"></a>
+				{% endif %}
 				{% include publications_pdf_and_notes.html %}
 			</li>
 		{% endif %}
@@ -298,9 +327,9 @@ title: Publications
 <a class="anchor" id="CP"></a>
 <ol reversed="">
 	{% for publication in site.data.publications_conference-proceedings %}
-		{% if publication.year >= oldestyearshown or publication.new and shownewonly == true %}
+		{% if publication.year >= oldestyearshown or publication.new == "Y" and shownewonly == true %}
 			<li>
-				{% if publication.new %}
+				{% if publication.new == "Y" %}
 					<div class="tooltip">
 						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
 						<span class="tooltiptext">added recently</span>
@@ -355,9 +384,9 @@ title: Publications
 <a class="anchor" id="PR"></a>
 <ol reversed="">
 	{% for publication in site.data.publications_project-reports %}
-		{% if publication.year >= oldestyearshown or publication.new and shownewonly == true %}
+		{% if publication.year >= oldestyearshown or publication.new == "Y" and shownewonly == true %}
 			<li>
-				{% if publication.new %}
+				{% if publication.new == "Y" %}
 					<div class="tooltip">
 						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
 						<span class="tooltiptext">added recently</span>
@@ -382,9 +411,9 @@ title: Publications
 <a class="anchor" id="DS"></a>
 <ol reversed="">
 	{% for publication in site.data.publications_datasets %}
-		{% if publication.year >= oldestyearshown or publication.new and shownewonly == true %}
+		{% if publication.year >= oldestyearshown or publication.new == "Y" and shownewonly == true %}
 			<li>
-				{% if publication.new %}
+				{% if publication.new == "Y" %}
 					<div class="tooltip">
 						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
 						<span class="tooltiptext">added recently</span>
