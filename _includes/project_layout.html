@@ -3,6 +3,12 @@
 		<b>{{ project.years }}</b></td>
 	<td style="width:0.75rem"></td>
 	<td>
+		{% if project.new == "Y" %}
+			<div class="tooltip">
+				<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+				<span class="tooltiptext">added recently</span>
+			</div>
+		{% endif %}
 		<b>{{ project.title }}</b><br>
 		<i>{{ project.subtitle }}</i>
 	</td>
