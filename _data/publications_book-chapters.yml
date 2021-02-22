@@ -1,3 +1,17 @@
+- editors: Andres N, Steeb N, Badoux A, Hegg C, eds
+  authorship: Contributions to
+  year: 2021
+  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR. Methodik und Resultate
+  publisher: Eidgenössische Forschungsanstalt für Wald, Schnee und Landschaft (WSL)
+  place: Birmensdorf
+  series: WSL Berichte
+  volume: 104
+  issn: 2296-3456
+  notes: "See Chapters 5 (Entwicklung hydrometeorologischer Grundlagen), 10 (Resultate der hydrometeorologischen Grundlagen), 17 (Diskussion der Unsicherheiten und Limitationen), 18 (Schlussfolgerungen) and 19 (Ausblick)"
+  pdf: https://www.wsl.ch/de/projekte/exar
+  pdf_external: Y
+  new: Y
+
 - authors: Martius O, Viviroli D, Rössler O, Zischg A, Röthlisberger V, Aemisegger F, Schulte L, Stuber M, Peña JC, Ruiz-Villanueva V, Molnar P
   year: 2020
   title: Understanding flood triggering mechanisms and flood risk changes

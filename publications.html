@@ -224,11 +224,14 @@ title: Publications
 						<span class="tooltiptext">added recently</span>
 					</div>
 				{% endif %}
-				<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
-				{{ publication.year }}.</b>
-				{{ publication.title }}.
+				{{ publication.authorship }}
+				{% if publication.authors %}
+					<b>{{ publication.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+						{{ publication.year }}.</b>
+						{{ publication.title }}.
+				{% endif %}
 				{% if publication.editors %}
-					<b>{{ publication.editors | replace:'Viviroli D','<u>Viviroli D</u>' }}.</b>
+					<b>{{ publication.editors | replace:'Viviroli D','<u>Viviroli D</u>' }}{% if publication.authors == null %}, {{ publication.year }}{% endif %}.</b>
 				{% endif %}
 
 				{% if publication.booktitle %}
@@ -246,6 +249,8 @@ title: Publications
 	     -->, <a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ publication.doi }}" target='_blank'>doi:{{ publication.doi }}</a><!--
 	   -->{% elsif publication.isbn %}<!--
 	     -->, ISBN {{ publication.isbn }}<!--
+		 -->{% elsif publication.issn %}<!--
+	     -->, ISSN {{ publication.issn }}<!--
 		 -->{% endif %}<!--
 	   -->{% if publication.pages %}, pp. {{publication.pages}}<!--
 	   -->{% elsif publication.tafel %}<!--
