@@ -1,3 +1,14 @@
+- title: Flood events from continuous simulation in the context of dam safety
+  subtitle: Development of statistical methods for evaluating long-term hydrometeorological simulation results
+  years: 2019–2021
+  where: University of Zurich
+  collaboration: Department of Mathematics, University of Zurich
+  funding: Swiss Federal Office of Energy (SFOE)
+  moreinfo_link: "https://energeiaplus.com/2021/04/15/von-den-exar-modell-rechnungen-zur-konkreten-hochwassergefaehrdung-fuer-stauanlagen/?translateto=en"
+  moreinfo_text: Read more
+  moreinfo_external: Y
+  new: Y
+
 - title: Understanding extreme flood events in the Aare River (EXAR)
   subtitle: Analyses based on comprehensive meteorological, hydrological and hydraulic modelling
   years: 2016–2021
@@ -5,8 +16,11 @@
   collaboration: Geotest AG§Hunziker, Zarn & Partner AG§IUB Engineering AG§Paul Scherrer Institute (PSI), Villigen§Swedish Environmental Research Institute (IVL), Stockholm, SE§Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf§Swiss Federal Institute of Technology, Lausanne (EPFL)§Swiss Federal Institute of Technology, Zurich (ETHZ)§University of Bern§University of Grenoble, FR
   funding: Swiss Federal Office for the Environment (FOEN)§Swiss Federal Nuclear Safety Inspectorate (ENSI)§Swiss Federal Office of Energy (SFOE)§Swiss Federal Office for Civil Protection (FOCP)§Swiss Federal Office of Meteorology and Climatology (MeteoSwiss)
   moreinfo_link: "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/mitteilungen.msg-id-82397.html"
-  moreinfo_text: Read more
+  moreinfo_text: Press release
   moreinfo_external: Y
+  moreinfo2_link: "https://www.wsl.ch/en/projekte/exar-1.html"
+  moreinfo2_text: Synthesis report and access to all project reports
+  moreinfo2_external: Y
   new: Y
 
 - title: Natural runoff in the Glenner River 1930–2013 and impacts of hydropower use
