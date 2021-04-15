@@ -37,6 +37,31 @@
 	</tr>
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
+
+<!-- Media coverage -->
+<!-- Insert field in form of "mediacoveragelist: media_Vivirolietal2020" !! without .yml !! -->
+<!-- In corresponding .yml file add comma for all items except for last... -->
+{% if project.mediacoveragelist %}
+	<tr valign="top">
+		<td align="right">In the media:</td>
+		<td/>
+		<td>
+			{% for item in site.data[project.mediacoveragelist] %}
+		    <a target='_blank' rel="noopener noreferrer" href={{ item.mediacoveragelink }}>{{ item.mediacoverage }}</a>
+				{% if item.mediacoverageexternal %}
+					<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ project.moreinfo_link }}>
+						<div class="tooltip">
+							<i class="fas fa-external-link-alt fa-xs"></i>
+							<span class="tooltiptext">External link</span>
+						</div>
+					</a>
+				{% endif %}
+		  {% endfor %}
+		</td>
+	</tr>
+	<tr style="height:0.25em"><td/></tr>
+{% endif %}
+
 {% if project.moreinfo_link %}
 	<tr valign="top">
 		<td align="right"></td>
@@ -55,6 +80,7 @@
 	</tr>
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
+
 {% if project.moreinfo2_link %}
 	<tr valign="top">
 		<td align="right"></td>
@@ -73,4 +99,5 @@
 	</tr>
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
+
 <tr style="height:2.0em"><td/></tr>

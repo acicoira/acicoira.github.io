@@ -1,72 +1,86 @@
-- authors: Andres N, Badoux A, Dang V, Hingray B, Müller M, Pfäffli M, Schwab S, Sutter A, Viviroli D, Hegg C
+- editors: Andres N, Steeb N, Badoux A, Hegg C, eds
+  authorship: Five chapters in
   year: 2021
-  title: Diskussion der Unsicherheiten und Limitationen
-  editors: Andres N, Steeb N, Badoux A, Hegg C
-  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
+  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR. Methodik und Resultate
+  publisher: Eidgenössische Forschungsanstalt für Wald, Schnee und Landschaft (WSL)
+  place: Birmensdorf
   series: WSL Berichte
   volume: 104
-  publisher: WSL
-  place: Birmensdorf
-  pages: 222–226
+  issn: 2296-3456
+  notes: "See Chapters 5 (Entwicklung hydrometeorologischer Grundlagen), 10 (Resultate der hydrometeorologischen Grundlagen), 17 (Diskussion der Unsicherheiten und Limitationen), 18 (Schlussfolgerungen) and 19 (Ausblick)"
   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
   pdf_external: Y
   new: Y
 
-- authors: Andres N, Badoux A, Dang V, Müller M, Pfäffli M, Schwab S, Sutter A, Viviroli D, Hegg C
-  year: 2021
-  title: Schlussfolgerungen
-  editors: Andres N, Steeb N, Badoux A, Hegg C
-  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
-  series: WSL Berichte
-  volume: 104
-  publisher: WSL
-  place: Birmensdorf
-  pages: 227-232
-  pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
-  pdf_external: Y
-  new: Y
-
-- authors: Andres N, Badoux A, Dang V, Müller M, Pfäffli M, Schwab S, Sutter A, Viviroli D, Hegg C
-  year: 2021
-  title: Ausblick
-  editors: Andres N, Steeb N, Badoux A, Hegg C
-  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
-  series: WSL Berichte
-  volume: 104
-  publisher: WSL
-  place: Birmensdorf
-  pages: 233-235
-  pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
-  pdf_external: Y
-  new: Y
-
-- authors: Baer P, Kauzlaric M, Viviroli D, Whealton C
-  year: 2021
-  title: Resultate der hydrometeorologischen Grundlagen
-  editors: Andres N, Steeb N, Badoux A, Hegg C
-  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
-  series: WSL Berichte
-  volume: 104
-  publisher: WSL
-  place: Birmensdorf
-  pages: 75–86
-  pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
-  pdf_external: Y
-  new: Y
-
-- authors: Kauzlaric M, Nicolet G, Viviroli D
-  year: 2021
-  title: Entwicklung hydrometeorologischer Grundlagen
-  editors: Andres N, Steeb N, Badoux A, Hegg C
-  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
-  series: WSL Berichte
-  volume: 104
-  publisher: WSL
-  place: Birmensdorf
-  pages: 31–40
-  pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
-  pdf_external: Y
-  new: Y
+# - authors: Andres N, Badoux A, Dang V, Hingray B, Müller M, Pfäffli M, Schwab S, Sutter A, Viviroli D, Hegg C
+#   year: 2021
+#   title: Diskussion der Unsicherheiten und Limitationen
+#   editors: Andres N, Steeb N, Badoux A, Hegg C
+#   booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
+#   series: WSL Berichte
+#   volume: 104
+#   publisher: WSL
+#   place: Birmensdorf
+#   pages: 222–226
+#   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
+#   pdf_external: Y
+#   new: Y
+#
+# - authors: Andres N, Badoux A, Dang V, Müller M, Pfäffli M, Schwab S, Sutter A, Viviroli D, Hegg C
+#   year: 2021
+#   title: Schlussfolgerungen
+#   editors: Andres N, Steeb N, Badoux A, Hegg C
+#   booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
+#   series: WSL Berichte
+#   volume: 104
+#   publisher: WSL
+#   place: Birmensdorf
+#   pages: 227-232
+#   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
+#   pdf_external: Y
+#   new: Y
+#
+# - authors: Andres N, Badoux A, Dang V, Müller M, Pfäffli M, Schwab S, Sutter A, Viviroli D, Hegg C
+#   year: 2021
+#   title: Ausblick
+#   editors: Andres N, Steeb N, Badoux A, Hegg C
+#   booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
+#   series: WSL Berichte
+#   volume: 104
+#   publisher: WSL
+#   place: Birmensdorf
+#   pages: 233-235
+#   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
+#   pdf_external: Y
+#   new: Y
+#
+# - authors: Baer P, Kauzlaric M, Viviroli D, Whealton C
+#   year: 2021
+#   title: Resultate der hydrometeorologischen Grundlagen
+#   editors: Andres N, Steeb N, Badoux A, Hegg C
+#   booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
+#   series: WSL Berichte
+#   volume: 104
+#   publisher: WSL
+#   place: Birmensdorf
+#   pages: 75–86
+#   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
+#   pdf_external: Y
+#   new: Y
+#
+# - authors: Kauzlaric M, Nicolet G, Viviroli D
+#   year: 2021
+#   title: Entwicklung hydrometeorologischer Grundlagen
+#   editors: Andres N, Steeb N, Badoux A, Hegg C
+#   booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
+#   series: WSL Berichte
+#   volume: 104
+#   publisher: WSL
+#   place: Birmensdorf
+#   pages: 31–40
+#   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
+#   pdf_external: Y
+#   new: Y
 
 - authors: Seibert J, Jenicek M, Huss N, Ewen T, Viviroli D
   year: 2021
@@ -107,6 +121,7 @@
   link: https://www.ipcc.ch/srocc/chapter/chapter-2/
   link_text: Access chapter online
   link_external: Y
+  #mediacoveragelist: media_2019SROCC
 
 - authors: Viviroli D
   year: 2013

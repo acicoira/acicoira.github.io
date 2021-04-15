@@ -1,5 +1,5 @@
 - title: Flood events from continuous simulation in the context of dam safety
-  subtitle: Development of statistical methods for evaluating long-term hydrometeorological simulation results
+  subtitle: Development of statistical methods for identifying representative hydrographs from extensive hydrometeorological simulations
   years: 2019–2021
   where: University of Zurich
   collaboration: Department of Mathematics, University of Zurich
@@ -15,12 +15,10 @@
   where: University of Zurich
   collaboration: Geotest AG§Hunziker, Zarn & Partner AG§IUB Engineering AG§Paul Scherrer Institute (PSI), Villigen§Swedish Environmental Research Institute (IVL), Stockholm, SE§Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf§Swiss Federal Institute of Technology, Lausanne (EPFL)§Swiss Federal Institute of Technology, Zurich (ETHZ)§University of Bern§University of Grenoble, FR
   funding: Swiss Federal Office for the Environment (FOEN)§Swiss Federal Nuclear Safety Inspectorate (ENSI)§Swiss Federal Office of Energy (SFOE)§Swiss Federal Office for Civil Protection (FOCP)§Swiss Federal Office of Meteorology and Climatology (MeteoSwiss)
-  moreinfo_link: "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/mitteilungen.msg-id-82397.html"
-  moreinfo_text: Press release
+  mediacoveragelist: media_20162021EXAR
+  moreinfo_link: "https://www.wsl.ch/en/projekte/exar-1.html"
+  moreinfo_text: Read more
   moreinfo_external: Y
-  moreinfo2_link: "https://www.wsl.ch/en/projekte/exar-1.html"
-  moreinfo2_text: Synthesis report and access to all project reports
-  moreinfo2_external: Y
   new: Y
 
 - title: Natural runoff in the Glenner River 1930–2013 and impacts of hydropower use
@@ -41,6 +39,9 @@
   years: 2012–2017
   where: belop gmbh, Sarnen
   funding: Various municipalities and cantons in Switzerland
+  moreinfo_link: "https://www.belop.ch/referenzen/naturgefahren-wasserbau"
+  moreinfo_text: Read more
+  moreinfo_external: Y
 
 - title: Hydraulic engineering, flood hydrology and hydrologic risk assessments
   subtitle: Practical projects with focus on mountainous areas and mountain torrents
@@ -80,6 +81,7 @@
   where: University of Bern
   collaboration: Changjiang Water Resources Commission, Wuhan, CN§Federal Ministry of Agriculture, Forestry, Environment and Water Management, Vienna, AT§Imperial College, London, UK§International Research Society INTERPRAEVENT, Klagenfurt, AT§JBA Consulting, Skipton, North Yorkshire, UK§National Institute of Water and Atmospheric Research (NIWA), Christchurch, NZ§Newcastle University, UK§Provincial Government of Carinthia, Klagenfurt, AT§Spanish Research Council (CSIC), Zaragoza, ES§Tel-Hai Academic College, IL§University at Albany, NY, US§University of British Columbia, CA§University of KwaZulu-Natal, Pietermaritzburg, ZA§University of Washington, Seattle, WA, US
   funding: Mountain Research Initiative (MRI)§Swiss National Science Foundation (SNSF)
+  mediacoveragelist: media_20092011WTCC
 
 - title: New foundations for flood estimation in Switzerland
   subtitle: Comprehensive flood-hydrological assessment of 450 meso-scale, mostly ungauged catchments with hydrological modelling (PREVAHregHQ)
