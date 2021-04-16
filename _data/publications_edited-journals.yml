@@ -4,6 +4,7 @@
   journal: Hydrology and Earth System Sciences
   specialissuename: Special Issue
   specialissuevolume: 122
-  link: "http://www.hydrol-earth-syst-sci.net/special_issue122.html"
-  link_text: List of articles in this special issue and dowloadable pdfs
-  link_external: Y
+  links:
+  - url: "http://www.hydrol-earth-syst-sci.net/special_issue122.html"
+    text: List of articles in this special issue and dowloadable pdfs
+    external: Y

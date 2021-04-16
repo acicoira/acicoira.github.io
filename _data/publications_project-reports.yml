@@ -29,9 +29,10 @@
   institution: Geographisches Institut der Universität Bern
   pdf: "https://www.bafu.admin.ch/dam/bafu/de/dokumente/hydrologie/externe-studien-berichte/klimaaenderung-und-niedrigwasser.pdf.download.pdf/Klima%C3%A4nderung%20und%20Niedrigwasser.pdf"
   pdf_external: Y
-  link: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
-  link_text: See also synthesis report on climate change and hydrology in Switzerland (CCHydro)
-  link_external: Y
+  links:
+  - url: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
+    text: See also synthesis report on climate change and hydrology in Switzerland (CCHydro)
+    external: Y
 
 - authors: Köplin N, Schädler B, Viviroli D, Weingartner R
   year: 2011
@@ -40,9 +41,10 @@
   institution: Geographisches Institut der Universität Bern
   pdf: "https://www.bafu.admin.ch/dam/bafu/de/dokumente/hydrologie/externe-studien-berichte/klimaaenderung-und-wasserhaushalt-in-sensitiven-bilanzierungsgebieten.pdf.download.pdf/Klima%C3%A4nderung%20und%20Wasserhaushalt%20in%20sensitiven%20Bilanzierungsgebieten.pdf"
   pdf_external: Y
-  link: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
-  link_text: See also synthesis report on climate change and hydrology in Switzerland (CCHydro)
-  link_external: Y
+  links:
+  - url: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
+    text: See also synthesis report on climate change and hydrology in Switzerland (CCHydro)
+    external: Y
 
 - authors: Schwanbeck J, Viviroli D, Weingartner R, Röser I, Trösch J
   year: 2007

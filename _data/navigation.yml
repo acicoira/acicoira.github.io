@@ -6,44 +6,44 @@
 
 - title: Publications
   url: /publications.html
-  sub_n: 10
-  sub1_text: Preprints
-  sub1_anchor: PP
-  sub2_text: Peer-reviewed
-  sub2_anchor: JP
-  sub3_text: Authored monographs
-  sub3_anchor: BM
-  sub4_text: Edited special issues
-  sub4_anchor: JE
-  sub5_text: Edited books
-  sub5_anchor: BE
-  sub6_text: Book chapters
-  sub6_anchor: BC
-  sub7_text: Further journals, newspapers
-  sub7_anchor: JF
-  sub8_text: Conference proceedings
-  sub8_anchor: CP
-  sub9_text: Project reports
-  sub9_anchor: PR
-  sub10_text: Data sets
-  sub10_anchor: DS
+  submenu:
+  - text: Preprints
+    anchor: PP
+  - text: Peer-reviewed
+    anchor: JP
+  - text: Authored monographs
+    anchor: BM
+  - text: Edited special issues
+    anchor: JE
+  - text: Edited books
+    anchor: BE
+  - text: Book chapters
+    anchor: BC
+  - text: Further journals, newspapers
+    anchor: JF
+  - text: Conference proceedings
+    anchor: CP
+  - text: Project reports
+    anchor: PR
+  - text: Data sets
+    anchor: DS
 
 - title: Projects
   url: /projects.html
-  sub_n: 2
-  sub1_text: Current
-  sub1_anchor: curr
-  sub2_text: Completed
-  sub2_anchor: compl
+  submenu:
+  - text: Current
+    anchor: curr
+  - text: Completed
+    anchor: compl
 
 - title: Photography
   url: /photography.html
-  sub_n: 4
-  sub1_text: Water
-  sub1_anchor: wa
-  sub2_text: Mountains
-  sub2_anchor: mo
-  sub3_text: Weather
-  sub3_anchor: we
-  sub4_text: Snow & ice
-  sub4_anchor: si
+  submenu:
+  - text: Water
+    anchor: wa
+  - text: Mountains
+    anchor: mo
+  - text: Weather
+    anchor: we
+  - text: Snow & ice
+    anchor: si

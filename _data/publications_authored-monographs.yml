@@ -13,9 +13,10 @@
   isbn: 978-3-033-03497-6
   pdf: https://naturwissenschaften.ch/service/publications/55433-prozessbasierte-hochwasserabschaetzung-fuer-mesoskalige-einzugsgebiete
   pdf_external: Y
-  link: "http://www.hydrologie.unibe.ch/PREVAHregHQ/home.html"
-  link_text: Download data
-  link_external: Y
+  links:
+  - url: "http://www.hydrologie.unibe.ch/PREVAHregHQ/home.html"
+    text: Download data
+    external: Y
 
 - authors: Viviroli D, Gurtz J, Zappa M
   year: 2007
@@ -25,12 +26,13 @@
   publisher: Institute of Geography, University of Bern
   place: Bern
   isbn: 978-3-90583501-4
-  link: /documents/Viviroli_et_al_2007_GB_P40_I.pdf
-  link_text: Download Part I (overview) as pdf
-  link2: /documents/Viviroli_et_al_2007_GB_P40_II.pdf
-  link2_text: Download Part II (model description) as pdf
-  link3: /documents/Viviroli_et_al_2007_GB_P40_III.pdf
-  link3_text: Download Part III (user manual) as pdf
+  links:
+  - url: /documents/Viviroli_et_al_2007_GB_P40_I.pdf
+    text: Download Part I (overview) as pdf
+  - url: /documents/Viviroli_et_al_2007_GB_P40_II.pdf
+    text: Download Part II (model description) as pdf
+  - url: /documents/Viviroli_et_al_2007_GB_P40_III.pdf
+    text: Download Part III (user manual) as pdf
   notes: For the peer-reviewed introduction  to PREVAH (Viviroli et al., 2009, Environ. Modell. Softw.) see further above.
 
 - authors: Viviroli D
@@ -54,4 +56,7 @@
   volume: 265
   publisher: Geographisches Institut der Universität Bern
   place: Bern
-  mediacoveragelist: media_2001DA
+  mediacoverage:
+  - title: Neue Zürcher Zeitung
+    link: /documents/Denzler_2002_NZZ.pdf
+    external: Y

@@ -6,17 +6,27 @@
   volume: 3
   pages: 917–928
   doi: 10.1038/s41893-020-0559-9
-  link: https://rdcu.be/b5r2H
-  link_text: Free access to article online
-  link_external: Y
-  link2: https://dx.doi.org/10.5061/dryad.ns1rn8pnt
-  link2_text: Free access to resulting data
-  link2_external: Y
+  links:
+  - url: https://rdcu.be/b5r2H
+    text: Free access to article online
+    external: Y
+  - url: https://dx.doi.org/10.5061/dryad.ns1rn8pnt
+    text: Free access to resulting data
+    external: Y
   notes: "Featured as research highlight in *Nature*"
   notes_highlight: Y
   notes_link: https://www.nature.com/articles/d41586-020-02028-7
   notes_link_external: Y
-  mediacoveragelist: media_2020NatSus
+  mediacoverage:
+  - title: Press release (German)
+    link: https://www.media.uzh.ch/de/medienmitteilungen/2020/Wasserressourcen-.html
+    external: Y
+  - title: press release (English)
+    link: https://www.media.uzh.ch/en/Press-Releases/2020/Water-from-Mountains.html
+    external: Y
+  - title: press release (Finnish)
+    link: https://www.aalto.fi/fi/uutiset/riippuvuus-vuoristojen-vesivarannoista-kasvaa-vuoristot-toimivat-vesitorneina-jopa
+    external: Y
   new: Y
 
 - authors: Immerzeel WW, Lutz AF, Andrade M, Bahl A, Biemans H, Bolch T, Hyde S, Brumby S, Davies BJ, Elmore AC, Emmer A, Feng M, Fernández A, Haritashya U, Kargel, JS, Koppes M, Kraaijenbrink PDA, Kulkarni AV, Mayewski P, Nepal S, Pacheco P, Painter TH, Pellicciotti F, Rajaram H, Rupper S, Sinisalo A, Shrestha AB, Viviroli D, Wada Y, Xiao C, Yao T, Baillie JEM
@@ -27,9 +37,10 @@
   issue: 7790
   pages: 364–369
   doi: 10.1038/s41586-019-1822-y
-  link: "https://rdcu.be/b5nLf"
-  link_text: Free access to article online
-  link_external: Y
+  links:
+  - url: "https://rdcu.be/b5nLf"
+    text: Free access to article online
+    external: Y
 
 - authors: Westerberg IK, Sikorska-Senoner AE, Viviroli D, Vis J, Seibert J
   year: 2020
@@ -147,7 +158,10 @@
   pdf_external: Y
   notes: "Featured as one of the journal's 25 'Highlights of 2015'"
   notes_highlight: Y
-  #mediacoveragelist: media_2015ERL
+  # mediacoverage:
+  # - title:  BBC Newshour
+  #   link: https://www.bbc.co.uk/sounds/play/p037kkp9
+  #   external: Y
 
 - authors: Sikorska AE, Viviroli D, Seibert J
   year: 2015
@@ -305,7 +319,19 @@
   pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2006WR005653
   pdf_openaccess: Y
   pdf_external: Y
-  #mediacoveragelist: media_2007WRR
+  # mediacoverage:
+  # - title: Der Standard
+  #   link: https://www.derstandard.at/story/3302946/gebirge-verlieren-wasserturm-funktion
+  #   external: Y
+  # - title: Deutschlandfunk (1)
+  #   link: https://www.deutschlandfunk.de/wenn-das-wasser-nur-noch-troepfelt.676.de.html?dram:article_id=25344
+  #   external: Y
+  # - title: Deutschlandfunk (2)
+  #   link: https://www.deutschlandfunk.de/tauwetter-ueber-den-gipfeln-der-welt.740.de.html?dram:article_id=111708
+  #   external: Y
+  # - title: Reuters
+  #   link: https://www.reuters.com/article/us-water-idUSL1457333520080414
+  #   external: Y
 
 - authors: Weingartner R, Viviroli D, Schädler B
   year: 2007

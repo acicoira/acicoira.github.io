@@ -15,7 +15,46 @@
   where: University of Zurich
   collaboration: Geotest AG§Hunziker, Zarn & Partner AG§IUB Engineering AG§Paul Scherrer Institute (PSI), Villigen§Swedish Environmental Research Institute (IVL), Stockholm, SE§Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf§Swiss Federal Institute of Technology, Lausanne (EPFL)§Swiss Federal Institute of Technology, Zurich (ETHZ)§University of Bern§University of Grenoble, FR
   funding: Swiss Federal Office for the Environment (FOEN)§Swiss Federal Nuclear Safety Inspectorate (ENSI)§Swiss Federal Office of Energy (SFOE)§Swiss Federal Office for Civil Protection (FOCP)§Swiss Federal Office of Meteorology and Climatology (MeteoSwiss)
-  mediacoveragelist: media_20162021EXAR
+  mediacoverage:
+  - title: Press release
+    link: https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/mitteilungen.msg-id-82397.html
+    external: Y
+  - title: Aargauer Zeitung
+    link: https://www.aargauerzeitung.ch/leben/atomkraft-studie-zeigt-extreme-hochwasser-koennten-kernkraftwerke-fluten-wuerden-aber-die-sicherheit-nicht-gefaehrden-ld.2105137
+    external: Y
+  - title: Basler Zeitung
+    link: https://www.bazonline.ch/beznau-und-goesgen-sind-vor-hochwasser-geschuetzt-726524356061
+    external: Y
+  - title: Berner Zeitung
+    link: https://www.bernerzeitung.ch/beznau-und-goesgen-sind-vor-hochwasser-geschuetzt-726524356061
+    external: Y
+  - title: Bote der Urschweiz
+    link: https://www.bote.ch/bdu-meta/footer/impressum/Impressum-Bote-der-Urschweiz;art146386,431841
+    external: Y
+  - title: Jungfrauzeitung
+    link: https://www.jungfrauzeitung.ch/artikel/188342/
+    external: Y
+  - title: Luzerner Zeitung
+    link: https://www.luzernerzeitung.ch/leben/atomkraft-studie-zeigt-extreme-hochwasser-koennten-kernkraftwerke-fluten-wuerden-aber-die-sicherheit-nicht-gefaehrden-ld.2105137
+    external: Y
+  - title: Neue Zürcher Zeitung
+    link: https://www.nzz.ch/schweiz/kernkraft-in-der-schweiz-wie-gut-ist-der-schutz-gegen-hochwasser-ld.1603058?reduced=true
+    external: Y
+  - title: Schweizer Radio und Fernsehen (1)
+    link: https://www.srf.ch/news/schweiz/neue-sicherheitsnachweise-extremhochwasser-studie-hat-folgen-fuer-akw-betreiber
+    external: Y
+  - title: Schweizer Radio und Fernsehen (2)
+    link: https://www.srf.ch/news/schweiz/extremhochwasser-und-akw-koennte-es-auch-in-der-schweiz-ein-fukushima-geben
+    external: Y
+  - title: St. Galler Tagblatt
+    link: https://www.tagblatt.ch/leben/atomkraft-studie-zeigt-extreme-hochwasser-koennten-kernkraftwerke-fluten-wuerden-aber-die-sicherheit-nicht-gefaehrden-ld.2105137
+    external: Y
+  - title: Südostschweiz
+    link: https://www.suedostschweiz.ch/politik/2021-02-22/bund-analysiert-potenzielle-schaeden-durch-extremhochwasser
+    external: Y
+  - title: Tages-Anzeiger
+    link: https://www.tagesanzeiger.ch/beznau-und-goesgen-sind-vor-hochwasser-geschuetzt-726524356061
+    external: Y
   moreinfo_link: "https://www.wsl.ch/en/projekte/exar-1.html"
   moreinfo_text: Read more
   moreinfo_external: Y
@@ -81,7 +120,15 @@
   where: University of Bern
   collaboration: Changjiang Water Resources Commission, Wuhan, CN§Federal Ministry of Agriculture, Forestry, Environment and Water Management, Vienna, AT§Imperial College, London, UK§International Research Society INTERPRAEVENT, Klagenfurt, AT§JBA Consulting, Skipton, North Yorkshire, UK§National Institute of Water and Atmospheric Research (NIWA), Christchurch, NZ§Newcastle University, UK§Provincial Government of Carinthia, Klagenfurt, AT§Spanish Research Council (CSIC), Zaragoza, ES§Tel-Hai Academic College, IL§University at Albany, NY, US§University of British Columbia, CA§University of KwaZulu-Natal, Pietermaritzburg, ZA§University of Washington, Seattle, WA, US
   funding: Mountain Research Initiative (MRI)§Swiss National Science Foundation (SNSF)
-  mediacoveragelist: media_20092011WTCC
+  mediacoverage:
+  - title: Neue Urner Zeitung
+    link: https://www.geography.unibe.ch/unibe/portal/fak_naturwis/e_geowiss/c_igeogr/content/e39647/e39660/e39663/e100876/e874921/e112166/2009_09_18_NUZ2009_ger.pdf
+    external: Y
+  - title: Neue Zürcher Zeitung
+    link: /documents/Denzler_2009_NZZ.pdf
+  - title: Swiss Radio and Television
+    link: https://www.srf.ch/audio/wissenschaftsmagazin/der-klimawandel-beeinflusst-den-wasserhaushalt?partId=10100561
+    external: Y
 
 - title: New foundations for flood estimation in Switzerland
   subtitle: Comprehensive flood-hydrological assessment of 450 meso-scale, mostly ungauged catchments with hydrological modelling (PREVAHregHQ)

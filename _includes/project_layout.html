@@ -1,75 +1,75 @@
 <tr valign="top" style="height:3em">
 	<td align="right" style="width:5.5em">
-		<b>{{ project.years }}</b></td>
+		<b>{{ item.years }}</b></td>
 	<td style="width:0.75rem"></td>
 	<td>
-		{% if project.new == "Y" %}
+		{% if item.new == "Y" %}
 			<div class="tooltip">
 				<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
 				<span class="tooltiptext">added recently</span>
 			</div>
 		{% endif %}
-		<b>{{ project.title }}</b><br>
-		<i>{{ project.subtitle }}</i>
+		<b>{{ item.title }}</b><br>
+		<i>{{ item.subtitle }}</i>
 	</td>
 </tr>
-{% if project.where %}
+{% if item.where %}
 	<tr valign="top">
 		<td align="right">Realised at:</td>
 		<td/>
-		<td>{{ project.where | replace:'§',' · '}}</td>
+		<td>{{ item.where | replace:'§',' · '}}</td>
 	</tr>
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
-{% if project.collaboration %}
+{% if item.collaboration %}
 	<tr valign="top">
 		<td align="right">Collaboration:</td>
 		<td/>
-		<td>{{ project.collaboration | replace:'§',' · '}}</td>
+		<td>{{ item.collaboration | replace:'§',' · '}}</td>
 	</tr>
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
-{% if project.funding %}
+{% if item.funding %}
 	<tr valign="top">
 		<td align="right">Funding:</td>
 		<td/>
-		<td>{{ project.funding | replace:'§',' · '}}</td>
+		<td>{{ item.funding | replace:'§',' · '}}</td>
 	</tr>
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
 
 <!-- Media coverage -->
-<!-- Insert field in form of "mediacoveragelist: media_Vivirolietal2020" !! without .yml !! -->
-<!-- In corresponding .yml file add comma for all items except for last... -->
-{% if project.mediacoveragelist %}
+{% if item.mediacoverage %}
 	<tr valign="top">
 		<td align="right">In the media:</td>
 		<td/>
 		<td>
-			{% for item in site.data[project.mediacoveragelist] %}
-		    <a target='_blank' rel="noopener noreferrer" href={{ item.mediacoveragelink }}>{{ item.mediacoverage }}</a>
-				{% if item.mediacoverageexternal %}
-					<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ project.moreinfo_link }}>
+			{% assign items = item.mediacoverage %}
+			{% for entry in item.mediacoverage %}
+		    <a target='_blank' rel="noopener noreferrer" href={{ entry.link }}>{{ entry.title }}</a>
+				{% if entry.external %}
+					<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.moreinfo_link }}>
 						<div class="tooltip">
 							<i class="fas fa-external-link-alt fa-xs"></i>
 							<span class="tooltiptext">External link</span>
 						</div>
 					</a>
 				{% endif %}
+				{% if entry.title != items.last.title %}· {% endif %}
 		  {% endfor %}
 		</td>
 	</tr>
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
 
-{% if project.moreinfo_link %}
+{% if item.moreinfo_link %}
 	<tr valign="top">
 		<td align="right"></td>
 		<td/>
 		<td>
-			<a target="_blank" rel="noopener noreferrer" href={{ project.moreinfo_link }}>{{ project.moreinfo_text }}</a>
-			{% if project.moreinfo_external %}
-				<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ project.moreinfo_link }}>
+			<a target="_blank" rel="noopener noreferrer" href={{ item.moreinfo_link }}>{{ item.moreinfo_text }}</a>
+			{% if item.moreinfo_external %}
+				<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ item.moreinfo_link }}>
 					<div class="tooltip">
 						<i class="fas fa-external-link-alt fa-xs"></i>
 						<span class="tooltiptext">External link</span>
@@ -81,14 +81,14 @@
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
 
-{% if project.moreinfo2_link %}
+{% if item.moreinfo2_link %}
 	<tr valign="top">
 		<td align="right"></td>
 		<td/>
 		<td>
-			<a target="_blank" rel="noopener noreferrer" href={{ project.moreinfo2_link }}>{{ project.moreinfo2_text }}</a>
-			{% if project.moreinfo2_external %}
-				<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ project.moreinfo2_link }}>
+			<a target="_blank" rel="noopener noreferrer" href={{ item.moreinfo2_link }}>{{ item.moreinfo2_text }}</a>
+			{% if item.moreinfo2_external %}
+				<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ item.moreinfo2_link }}>
 					<div class="tooltip">
 						<i class="fas fa-external-link-alt fa-xs"></i>
 						<span class="tooltiptext">External link</span>
