@@ -6,10 +6,10 @@
   volume: 3
   pages: 917–928
   doi: 10.1038/s41893-020-0559-9
+  pdf: https://rdcu.be/b5r2H
+  pdf_text: Read online
+  pdf_external: Y
   links:
-  - url: https://rdcu.be/b5r2H
-    text: Free access to article online
-    external: Y
   - url: https://dx.doi.org/10.5061/dryad.ns1rn8pnt
     text: Free access to resulting data
     external: Y
@@ -37,10 +37,9 @@
   issue: 7790
   pages: 364–369
   doi: 10.1038/s41586-019-1822-y
-  links:
-  - url: "https://rdcu.be/b5nLf"
-    text: Free access to article online
-    external: Y
+  pdf: https://rdcu.be/b5nLf
+  pdf_text: Read online
+  pdf_external: Y
 
 - authors: Westerberg IK, Sikorska-Senoner AE, Viviroli D, Vis J, Seibert J
   year: 2020
