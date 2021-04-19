@@ -124,7 +124,7 @@
     link_external: Y
   # mediacoverage:
   # - title: Die Zeit
-  #   link: https://www.zeit.de/wissen/umwelt/2019-09/sonderbericht-klimawandel-ipcc-report-ergebnisse-weltklimarat-klimaschutz
+  #   url: https://www.zeit.de/wissen/umwelt/2019-09/sonderbericht-klimawandel-ipcc-report-ergebnisse-weltklimarat-klimaschutz
   #   external: Y
 
 - authors: Viviroli D

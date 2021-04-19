@@ -9,23 +9,33 @@
   where: University of Zurich
   collaboration: Geotest AG§Hunziker, Zarn & Partner AG
   funding: Swiss Federal Office for the Environment (FOEN)§Cantons of Aargau, Bern and Solothurn
-  moreinfo_link: "https://www.nccs.admin.ch/nccs/de/home/massnahmen/pak/projektephase2/pilotprojekte-zur-anpassung-an-den-klimawandel--cluster--managem/c-02-hochwasserabschaetzung-entlang-der-aare.html"
-  moreinfo_text: Read more
-  moreinfo_external: Y
+  moreinfo:
+  - text: Project description
+    url: "https://www.nccs.admin.ch/nccs/de/home/massnahmen/pak/projektephase2/pilotprojekte-zur-anpassung-an-den-klimawandel--cluster--managem/c-02-hochwasserabschaetzung-entlang-der-aare.html"
+    external: Y
 
 - title: Hydrological basis for climate change adaptation measures (Hydro-CH2018)
   subtitle: Synthesis report for Switzerland, contributions to chapters on uncertainties and on floods
   where: University of Zurich
   collaboration: Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf§Swiss Federal Institute of Technology, Zurich (ETHZ)§Universities of Bern, Fribourg, Geneva and Lausanne
   funding: Swiss Federal Office for the Environment (FOEN)
-  moreinfo_link: "https://www.nccs.admin.ch/nccs/de/home/das-nccs/themenschwerpunkte/hydro-ch2018.html"
-  moreinfo_text: Read more
-  moreinfo_external: Y
+  moreinfo:
+  - text: Project homepage
+    url: "https://www.nccs.admin.ch/nccs/de/home/das-nccs/themenschwerpunkte/hydro-ch2018.html"
+    external: Y
+  mediacoverage:
+  - title: Press release
+    url: https://www.bafu.admin.ch/bafu/de/home/themen/wasser/wasser-veranstaltungen-und-tagungen/hydrologische-szenarien-hydro-ch2018.html
+    external: Y
+  - title: Swissinfo
+    url: https://www.swissinfo.ch/eng/climate-report-sounds-water-alarm-in-switzerland/46453134
+    external: Y
 
 - title: "Mountains: Water towers for food production?"
   subtitle: Model-based assessments regarding the importance of mountain runoff for irrigated agriculture and food production downstream
   where: University of Zurich
   collaboration: Aalto University, Espoo, SF§International Institute for Applied Systems Analysis (IIASA), Laxenburg, AT§University of Bremen, DE§University of Innsbruck, AT
-  moreinfo_link: "https://www.geo.uzh.ch/en/units/h2k/research/PhD-Research-Projects/Sarah-Hanus.html"
-  moreinfo_text: Read more
-  moreinfo_external: Y
+  moreinfo:
+  - text: Project outline
+    url: "https://www.geo.uzh.ch/en/units/h2k/research/PhD-Research-Projects/Sarah-Hanus.html"
+    external: Y

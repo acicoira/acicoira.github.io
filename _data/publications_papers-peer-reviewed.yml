@@ -13,19 +13,20 @@
   - url: https://dx.doi.org/10.5061/dryad.ns1rn8pnt
     text: Free access to resulting data
     external: Y
-  notes: "Featured as research highlight in *Nature*"
-  notes_highlight: Y
-  notes_link: https://www.nature.com/articles/d41586-020-02028-7
-  notes_link_external: Y
+  notes:
+  - text: "Featured as research highlight in *Nature*"
+    highlight: Y
+    url: https://www.nature.com/articles/d41586-020-02028-7
+    external: Y
   mediacoverage:
-  - title: Press release (German)
-    link: https://www.media.uzh.ch/de/medienmitteilungen/2020/Wasserressourcen-.html
+  - title: Press release (University of Zurich, German)
+    url: https://www.media.uzh.ch/de/medienmitteilungen/2020/Wasserressourcen-.html
     external: Y
-  - title: press release (English)
-    link: https://www.media.uzh.ch/en/Press-Releases/2020/Water-from-Mountains.html
+  - title: press release (University of Zurich, English)
+    url: https://www.media.uzh.ch/en/Press-Releases/2020/Water-from-Mountains.html
     external: Y
-  - title: press release (Finnish)
-    link: https://www.aalto.fi/fi/uutiset/riippuvuus-vuoristojen-vesivarannoista-kasvaa-vuoristot-toimivat-vesitorneina-jopa
+  - title: press release (Aalto University, Finnish)
+    url: https://www.aalto.fi/fi/uutiset/riippuvuus-vuoristojen-vesivarannoista-kasvaa-vuoristot-toimivat-vesitorneina-jopa
     external: Y
   new: Y
 
@@ -155,12 +156,34 @@
   pdf: http://iopscience.iop.org/article/10.1088/1748-9326/10/11/114016/pdf
   pdf_openaccess: Y
   pdf_external: Y
-  notes: "Featured as one of the journal's 25 'Highlights of 2015'"
-  notes_highlight: Y
-  # mediacoverage:
-  # - title:  BBC Newshour
-  #   link: https://www.bbc.co.uk/sounds/play/p037kkp9
-  #   external: Y
+  notes:
+  - text: "Featured as one of the journal's 25 'Highlights of 2015'"
+    highlight: Y
+    url: https://iopscience.iop.org/journal/1748-9326/page/Highlights-of-2015
+    external: Y
+  - text: "Featured as research highlight in *Nature*"
+    highlight: Y
+    url: https://www.nature.com/articles/527412d
+    external: Y
+  mediacoverage:
+  - title: Press release
+    url: https://www.earth.columbia.edu/articles/view/3265
+    external: Y
+  - title:  BBC Newshour
+    url: https://www.bbc.co.uk/sounds/play/p037kkp9
+    external: Y
+  - title: BBC Science in Action
+    url: https://www.bbc.co.uk/programmes/p037kkxl
+    external: Y
+  - title: National Geographic
+    url: https://www.nationalgeographic.com/science/article/151112-river-basins-water-drought-snowpack-snowfall-climate-change-science
+    external: Y
+  - title: Nature Climate Change
+    url: https://www.nature.com/articles/s41558-018-0330-7
+    external: Y
+  - title: New York Times
+    url: https://www.nytimes.com/2015/11/18/science/billions-of-people-depend-on-water-from-shrinking-snowpacks.html
+    external: Y
 
 - authors: Sikorska AE, Viviroli D, Seibert J
   year: 2015
@@ -242,8 +265,9 @@
   pdf: https://www.hydrol-earth-syst-sci.net/15/471/2011/hess-15-471-2011.pdf
   pdf_openaccess: Y
   pdf_external: Y
-  notes: "Highly cited paper (top 1% in field as to Essential Science Indicators)"
-  notes_highlight: Y
+  notes:
+  - text: "Highly cited paper (top 1% in field as to Essential Science Indicators)"
+    highlight: Y
 
 - authors: Viviroli D, Weingartner R
   year: 2011
@@ -304,8 +328,9 @@
   pages: 1209–1222
   doi: 10.1016/j.envsoft.2009.04.001
   pdf: /documents/Viviroli_et_al_2009_EMS_24.pdf
-  notes: "Highly cited paper (top 1% in field as to Essential Science Indicators)"
-  notes_highlight: Y
+  notes:
+  - text: "Highly cited paper (top 1% in field as to Essential Science Indicators)"
+    highlight: Y
 
 - authors: Viviroli D, Dürr HH, Messerli B, Meybeck M, Weingartner R
   year: 2007
@@ -320,16 +345,16 @@
   pdf_external: Y
   # mediacoverage:
   # - title: Der Standard
-  #   link: https://www.derstandard.at/story/3302946/gebirge-verlieren-wasserturm-funktion
+  #   url: https://www.derstandard.at/story/3302946/gebirge-verlieren-wasserturm-funktion
   #   external: Y
   # - title: Deutschlandfunk (1)
-  #   link: https://www.deutschlandfunk.de/wenn-das-wasser-nur-noch-troepfelt.676.de.html?dram:article_id=25344
+  #   url: https://www.deutschlandfunk.de/wenn-das-wasser-nur-noch-troepfelt.676.de.html?dram:article_id=25344
   #   external: Y
   # - title: Deutschlandfunk (2)
-  #   link: https://www.deutschlandfunk.de/tauwetter-ueber-den-gipfeln-der-welt.740.de.html?dram:article_id=111708
+  #   url: https://www.deutschlandfunk.de/tauwetter-ueber-den-gipfeln-der-welt.740.de.html?dram:article_id=111708
   #   external: Y
   # - title: Reuters
-  #   link: https://www.reuters.com/article/us-water-idUSL1457333520080414
+  #   url: https://www.reuters.com/article/us-water-idUSL1457333520080414
   #   external: Y
 
 - authors: Weingartner R, Viviroli D, Schädler B

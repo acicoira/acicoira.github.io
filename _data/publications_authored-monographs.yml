@@ -33,7 +33,8 @@
     text: Download Part II (model description) as pdf
   - url: /documents/Viviroli_et_al_2007_GB_P40_III.pdf
     text: Download Part III (user manual) as pdf
-  notes: For the peer-reviewed introduction  to PREVAH (Viviroli et al., 2009, Environ. Modell. Softw.) see further above.
+  notes:
+  - text: For the peer-reviewed introduction  to PREVAH (Viviroli et al., 2009, Environ. Modell. Softw.) see further above.
 
 - authors: Viviroli D
   year: 2007
@@ -45,8 +46,9 @@
   place: Bern
   isbn: 978-3-90583500-7
   pdf: /documents/Viviroli_2007_G77.pdf
-  notes: "Awarded with the University of Bern faculty prize for best dissertation in Geosciences 2007"
-  notes_highlight: Y
+  notes:
+  - text: Awarded with the University of Bern faculty prize for best dissertation in Geosciences 2007
+    highlight: Y
 
 - authors: Viviroli D
   year: 2001
@@ -58,4 +60,4 @@
   place: Bern
   mediacoverage:
   - title: Neue Zürcher Zeitung
-    link: /documents/Denzler_2002_NZZ.pdf
+    url: /documents/Denzler_2002_NZZ.pdf

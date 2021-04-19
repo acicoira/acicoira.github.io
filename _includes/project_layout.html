@@ -38,7 +38,7 @@
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
 
-<!-- Media coverage -->
+<!-- media coverage -->
 {% if item.mediacoverage %}
 	<tr valign="top">
 		<td align="right">In the media:</td>
@@ -46,9 +46,9 @@
 		<td>
 			{% assign items = item.mediacoverage %}
 			{% for entry in item.mediacoverage %}
-		    <a target='_blank' rel="noopener noreferrer" href={{ entry.link }}>{{ entry.title }}</a>
+		    <a target='_blank' rel="noopener noreferrer" href={{ entry.url }}>{{ entry.title }}</a>
 				{% if entry.external %}
-					<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.moreinfo_link }}>
+					<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.url }}>
 						<div class="tooltip">
 							<i class="fas fa-external-link-alt fa-xs"></i>
 							<span class="tooltiptext">External link</span>
@@ -62,41 +62,25 @@
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
 
-{% if item.moreinfo_link %}
-	<tr valign="top">
-		<td align="right"></td>
-		<td/>
-		<td>
-			<a target="_blank" rel="noopener noreferrer" href={{ item.moreinfo_link }}>{{ item.moreinfo_text }}</a>
-			{% if item.moreinfo_external %}
-				<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ item.moreinfo_link }}>
-					<div class="tooltip">
-						<i class="fas fa-external-link-alt fa-xs"></i>
-						<span class="tooltiptext">External link</span>
-					</div>
-				</a>
-			{% endif %}
-		</td>
-	</tr>
-	<tr style="height:0.25em"><td/></tr>
-{% endif %}
-
-{% if item.moreinfo2_link %}
-	<tr valign="top">
-		<td align="right"></td>
-		<td/>
-		<td>
-			<a target="_blank" rel="noopener noreferrer" href={{ item.moreinfo2_link }}>{{ item.moreinfo2_text }}</a>
-			{% if item.moreinfo2_external %}
-				<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ item.moreinfo2_link }}>
-					<div class="tooltip">
-						<i class="fas fa-external-link-alt fa-xs"></i>
-						<span class="tooltiptext">External link</span>
-					</div>
-				</a>
-			{% endif %}
-		</td>
-	</tr>
+{% if item.moreinfo %}
+		<tr valign="top">
+			<td align="right">Read more:</td>
+			<td/>
+				<td>
+				{% for entry in item.moreinfo %}
+					<a target="_blank" rel="noopener noreferrer" href={{ entry.url }}>{{ entry.text }}</a>
+					{% if entry.external %}
+						<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.url }}>
+							<div class="tooltip">
+								<i class="fas fa-external-link-alt fa-xs"></i>
+								<span class="tooltiptext">External link</span>
+							</div>
+						</a>
+					{% endif %}
+					{% if entry.text != items.last.text %}· {% endif %}
+			  {% endfor %}
+		  </td>
+		</tr>
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
 
