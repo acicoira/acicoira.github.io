@@ -23,6 +23,23 @@
   {% endif %}
 {% endif %}
 
+<!-- various links -->
+{% if item.links %}
+  {% for entry in item.links %}
+    <br>
+    <span style="display:block; height:0.50em;"></span>
+    > <a target="_blank" rel="noopener noreferrer" href={{ entry.url }}>{{ entry.text }}</a>
+    {% if entry.external %}
+      <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.url }}>
+        <div class="tooltip">
+          <i class="fas fa-external-link-alt fa-xs"></i>
+          <span class="tooltiptext">External link</span>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
 <!-- media coverage -->
 {% if item.mediacoverage %}
   <br>

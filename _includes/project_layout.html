@@ -67,8 +67,11 @@
 			<td align="right">Read more:</td>
 			<td/>
 				<td>
+				{% assign items = item.moreinfo %}
 				{% for entry in item.moreinfo %}
-					<a target="_blank" rel="noopener noreferrer" href={{ entry.url }}>{{ entry.text }}</a>
+					<a target="_blank" rel="noopener noreferrer" href={{ entry.url }}>
+					{{ entry.text | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
+					</a>
 					{% if entry.external %}
 						<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.url }}>
 							<div class="tooltip">

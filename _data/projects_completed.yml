@@ -60,7 +60,7 @@
   - text: Project synthesis (English)
     url: "https://www.wsl.ch/en/projekte/exar-1.html"
     external: Y
-  - text: project synthesis and complete project reports (German)
+  - text: project synthesis and collection of all project reports (German)
     url: "https://www.wsl.ch/de/projekte/exar-1.html"
     external: Y
   new: Y
@@ -137,6 +137,10 @@
   - title: Schweizer Radio und Fernsehen
     url: https://www.srf.ch/audio/wissenschaftsmagazin/der-klimawandel-beeinflusst-den-wasserhaushalt?partId=10100561
     external: Y
+  moreinfo:
+    - text: Special isue in *Hydrology and Earth System Sciences*
+      url: "https://hess.copernicus.org/articles/special_issue122.html"
+      external: Y
 
 - title: New foundations for flood estimation in Switzerland
   subtitle: Comprehensive flood-hydrological assessment of 450 meso-scale, mostly ungauged catchments with hydrological modelling (PREVAHregHQ)
@@ -157,6 +161,10 @@
   where: University of Bern
   collaboration: Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf§TK Consult AG, Zürich
   funding: Amt für Abfall, Wasser, Energie und Luft (AWEL), Canton of Zürich
+  mediacoverage:
+  - title: TEC21
+    url: https://www.espazium.ch/de/aktuelles/unberechenbare-sihl
+    external: Y
 
 - title: Analysis of the 2005 flood event in the Bernese Oberland, Switzerland
   subtitle: Sensitivity analyses based on process-oriented hydrological modelling
@@ -175,6 +183,11 @@
   where: University of Bern
   collaboration: Swiss Federal Office of Meteorology and Climatology (MeteoSwiss)§TK Consult AG, Zürich
   funding: Amt für Abfall, Wasser, Energie und Luft (AWEL), Canton of Zürich
+  mediacoverage:
+  - title: Neue Zürcher Zeitung
+    url: /documents/Meier_2007_NZZ.pdf
+  - title: Tages-Anzeiger
+    url: /documents/Temperli_2007_TA.pdf
 
 - title: Potential analysis for small hydropower plants, concept study
   subtitle: Combination of process-oriented hydrological modelling and Geographic Information Systems GIS

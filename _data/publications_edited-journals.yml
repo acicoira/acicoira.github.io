@@ -5,6 +5,6 @@
   specialissuename: Special Issue
   specialissuevolume: 122
   links:
-  - url: "http://www.hydrol-earth-syst-sci.net/special_issue122.html"
-    text: List of articles in this special issue and dowloadable pdfs
+  - text: List of articles in this special issue and dowloadable pdfs
+    url: "http://www.hydrol-earth-syst-sci.net/special_issue122.html"
     external: Y
