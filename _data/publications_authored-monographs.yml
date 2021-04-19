@@ -46,6 +46,11 @@
   place: Bern
   isbn: 978-3-90583500-7
   pdf: /documents/Viviroli_2007_G77.pdf
+  mediacoverage:
+  - title: Neue Zürcher Zeitung
+    url: /documents/Denzler_2008_NZZ.pdf
+  - title: VDI Nachrichten
+    url: /documents/Sauer_2007_VDI.pdf
   notes:
   - text: Awarded with the University of Bern faculty prize for best dissertation in Geosciences 2007
     highlight: Y
