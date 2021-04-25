@@ -1,14 +1,25 @@
 - title: Extreme floods in Switzerland
   subtitle: Hydrometeorological scenarios across a wide range of scales and return periods for all of Switzerland
   where: University of Zurich
-  collaboration: University of Bern§Universtiy of Graz, AT§University of Grenoble, FR
-  funding: Swiss Federal Office for the Environment (FOEN)§Swiss Federal Office of Energy (SFOE)
+  collaboration:
+  - partner: University of Bern
+  - partner: Universtiy of Graz, AT
+  - partner: University of Grenoble, FR
+  funding:
+  - sponsor: Swiss Federal Office for the Environment (FOEN)
+  - sponsor: Swiss Federal Office of Energy (SFOE)
 
 - title: Flood hazards and risk trends along the Aare River under a changing climate
   subtitle: Study within the pilot programme on climate change adaptation in Switzerland
   where: University of Zurich
-  collaboration: Geotest AG§Hunziker, Zarn & Partner AG
-  funding: Swiss Federal Office for the Environment (FOEN)§Cantons of Aargau, Bern and Solothurn
+  collaboration:
+  - partner: Geotest AG
+  - partner: Hunziker, Zarn & Partner AG
+  funding:
+  - sponsor: Swiss Federal Office for the Environment (FOEN)
+  - sponsor: Canton of Aargau
+  - sponsor: Canton of Bern
+  - sponsor: Canton of Solothurn
   moreinfo:
   - text: Project description
     url: "https://www.nccs.admin.ch/nccs/de/home/massnahmen/pak/projektephase2/pilotprojekte-zur-anpassung-an-den-klimawandel--cluster--managem/c-02-hochwasserabschaetzung-entlang-der-aare.html"
@@ -17,8 +28,15 @@
 - title: Hydrological basis for climate change adaptation measures (Hydro-CH2018)
   subtitle: Synthesis report for Switzerland, contributions to chapters on uncertainties and on floods
   where: University of Zurich
-  collaboration: Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf§Swiss Federal Institute of Technology, Zurich (ETHZ)§Universities of Bern, Fribourg, Geneva and Lausanne
-  funding: Swiss Federal Office for the Environment (FOEN)
+  collaboration:
+  - partner: Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf
+  - partner: Swiss Federal Institute of Technology, Zurich (ETHZ)
+  - partner: University of Bern
+  - partner: University of Fribourg
+  - partner: University of Geneva
+  - partner: University of Lausanne
+  funding:
+  - sponsor: Swiss Federal Office for the Environment (FOEN)
   moreinfo:
   - text: Project homepage
     url: "https://www.nccs.admin.ch/nccs/de/home/das-nccs/themenschwerpunkte/hydro-ch2018.html"
@@ -34,7 +52,11 @@
 - title: "Mountains: Water towers for food production?"
   subtitle: Model-based assessments regarding the importance of mountain runoff for irrigated agriculture and food production downstream
   where: University of Zurich
-  collaboration: Aalto University, Espoo, SF§International Institute for Applied Systems Analysis (IIASA), Laxenburg, AT§University of Bremen, DE§University of Innsbruck, AT
+  collaboration:
+  - partner: Aalto University, Espoo, SF
+  - partner: International Institute for Applied Systems Analysis (IIASA), Laxenburg, AT
+  - partner: University of Bremen, DE
+  - partner: University of Innsbruck, AT
   moreinfo:
   - text: Project outline
     url: "https://www.geo.uzh.ch/en/units/h2k/research/PhD-Research-Projects/Sarah-Hanus.html"

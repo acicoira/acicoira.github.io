@@ -2,8 +2,10 @@
   subtitle: Development of statistical methods for identifying representative hydrographs from extensive hydrometeorological simulations
   years: 2019–2021
   where: University of Zurich
-  collaboration: Department of Mathematics, University of Zurich
-  funding: Swiss Federal Office of Energy (SFOE)
+  collaboration:
+  - partner: Department of Mathematics, University of Zurich
+  funding:
+  - sponsor: Swiss Federal Office of Energy (SFOE)
   moreinfo:
   - text: News item at Federal Office of Energy
     url: "https://energeiaplus.com/2021/04/15/von-den-exar-modell-rechnungen-zur-konkreten-hochwassergefaehrdung-fuer-stauanlagen/?translateto=en"
@@ -14,8 +16,23 @@
   subtitle: Analyses based on comprehensive meteorological, hydrological and hydraulic modelling
   years: 2016–2021
   where: University of Zurich
-  collaboration: Geotest AG§Hunziker, Zarn & Partner AG§IUB Engineering AG§Paul Scherrer Institute (PSI), Villigen§Swedish Environmental Research Institute (IVL), Stockholm, SE§Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf§Swiss Federal Institute of Technology, Lausanne (EPFL)§Swiss Federal Institute of Technology, Zurich (ETHZ)§University of Bern§University of Grenoble, FR
-  funding: Swiss Federal Office for the Environment (FOEN)§Swiss Federal Nuclear Safety Inspectorate (ENSI)§Swiss Federal Office of Energy (SFOE)§Swiss Federal Office for Civil Protection (FOCP)§Swiss Federal Office of Meteorology and Climatology (MeteoSwiss)
+  collaboration:
+  - partner: Geotest AG
+  - partner: Hunziker, Zarn & Partner AG
+  - partner: IUB Engineering AG
+  - partner: Paul Scherrer Institute (PSI), Villigen
+  - partner: Swedish Environmental Research Institute (IVL), Stockholm, SE
+  - partner: Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf
+  - partner: Swiss Federal Institute of Technology, Lausanne (EPFL)
+  - partner: Swiss Federal Institute of Technology, Zurich (ETHZ)
+  - partner: University of Bern
+  - partner: University of Grenoble, FR
+  funding:
+  - sponsor: Swiss Federal Office for the Environment (FOEN)
+  - sponsor: Swiss Federal Nuclear Safety Inspectorate (ENSI)
+  - sponsor: Swiss Federal Office of Energy (SFOE)
+  - sponsor: Swiss Federal Office for Civil Protection (FOCP)
+  - sponsor: Swiss Federal Office of Meteorology and Climatology (MeteoSwiss)
   mediacoverage:
   - title: Press release (FOEN)
     url: https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/mitteilungen.msg-id-82397.html
@@ -32,7 +49,7 @@
   - title: Bote der Urschweiz
     url: https://www.bote.ch/bdu-meta/footer/impressum/Impressum-Bote-der-Urschweiz;art146386,431841
     external: Y
-  - title: Jungfrauzeitung
+  - title: Jungfrau Zeitung
     url: https://www.jungfrauzeitung.ch/artikel/188342/
     external: Y
   - title: Luzerner Zeitung
@@ -69,20 +86,25 @@
   subtitle: Process-oriented hydrological modelling with consideration of hydropower use
   years: 2014–2016
   where: belop gmbh, Sarnen
-  funding: World Wide Fund for Nature (WWF)
+  funding:
+  - sponsor: World Wide Fund for Nature (WWF)
 
 - title: Flood volume estimation for ungauged mesoscale catchments in Switzerland
   subtitle: Synthetic Design Hydrograph approach, aimed at practical application in consulting and engineering
   years: 2013–2018
   where: belop gmbh, Sarnen§University of Zurich
-  collaboration: AIC Ingénieurs Conseils SA, Lausanne§University of Grenoble, FR
-  funding: Swiss Federal Office for the Environment (FOEN)
+  collaboration:
+  - partner: AIC Ingénieurs Conseils SA, Lausanne
+  - partner: University of Grenoble, FR
+  funding:
+  - sponsor: Swiss Federal Office for the Environment (FOEN)
 
 - title: Mountain torrent and runoff channel hydraulics
   subtitle: Detailed models for hydraulic engineering concepts and risk assessments, based on extensive field surveys
   years: 2012–2017
   where: belop gmbh, Sarnen
-  funding: Various municipalities and cantons in Switzerland
+  funding:
+  - sponsor: Various municipalities and cantons in Switzerland
   moreinfo:
   - text: Reference projects
     url: "https://www.belop.ch/referenzen/naturgefahren-wasserbau"
@@ -92,7 +114,10 @@
   subtitle: Practical projects with focus on mountainous areas and mountain torrents
   years: 2012–2017
   where: belop gmbh, Sarnen
-  funding: Numerous companies, municipalities and cantons in Switzerland§Swiss Federal Railways (SBB)§Swiss Federal Roads Office (FEDRO)
+  funding:
+  - sponsor: Numerous companies, municipalities and cantons in Switzerland
+  - sponsor: Swiss Federal Railways (SBB)
+  - sponsor: Swiss Federal Roads Office (FEDRO)
   moreinfo:
   - text: Reference projects
     url: "https://www.belop.ch/referenzen/naturgefahren-wasserbau"
@@ -102,21 +127,28 @@
   subtitle: Elaboration of new perspectives on mountains in the context of global water resources
   years: 2011
   where: Imperial College, London, UK
-  funding: Swiss National Science Foundation (SNSF)
+  funding:
+  - sponsor: Swiss National Science Foundation (SNSF)
 
 - title: Residual flow values in the Landquart, Hinterrhein and Vorderrhein Rivers, Grisons, CH
   subtitle: Process-oriented hydrological modelling with consideration of hydropower use
   years: 2010–2011
   where: University of Bern
-  collaboration: TK Consult AG, Zurich
-  funding: Amt für Natur und Umwelt ANU, Chur (GR)
+  collaboration:
+  - partner: TK Consult AG, Zurich
+  funding:
+  - sponsor: Amt für Natur und Umwelt ANU, Chur (GR)
 
 - title: Assessment of climate change impacts on Switzerland’s hydrology (CCHydro)
   subtitle: Process-oriented hydrological modelling of flow regime, floods and low flow under climate change
   years: 2009–2011
   where: University of Bern
-  collaboration: Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmendsdorf§Swiss Federal Institute of Technology, Zurich (ETHZ)§University of Zurich
-  funding: Swiss Federal Office for the Environment (FOEN)
+  collaboration:
+  - partner: Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmendsdorf
+  - partner: Swiss Federal Institute of Technology, Zurich (ETHZ)
+  - partner: University of Zurich
+  funding:
+  - sponsor: Swiss Federal Office for the Environment (FOEN)
   moreinfo:
   - text: Synthesis report
     url: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
@@ -126,8 +158,24 @@
   subtitle: Conception, organisation and moderation of an international invited workshop in Göschenen, CH
   years: 2009–2011
   where: University of Bern
-  collaboration: Changjiang Water Resources Commission, Wuhan, CN§Federal Ministry of Agriculture, Forestry, Environment and Water Management, Vienna, AT§Imperial College, London, UK§International Research Society INTERPRAEVENT, Klagenfurt, AT§JBA Consulting, Skipton, North Yorkshire, UK§National Institute of Water and Atmospheric Research (NIWA), Christchurch, NZ§Newcastle University, UK§Provincial Government of Carinthia, Klagenfurt, AT§Spanish Research Council (CSIC), Zaragoza, ES§Tel-Hai Academic College, IL§University at Albany, NY, US§University of British Columbia, CA§University of KwaZulu-Natal, Pietermaritzburg, ZA§University of Washington, Seattle, WA, US
-  funding: Mountain Research Initiative (MRI)§Swiss National Science Foundation (SNSF)
+  collaboration:
+  - partner: Changjiang Water Resources Commission, Wuhan, CN
+  - partner: Federal Ministry of Agriculture, Forestry, Environment and Water Management, Vienna, AT
+  - partner: Imperial College, London, UK
+  - partner: International Research Society INTERPRAEVENT, Klagenfurt, AT
+  - partner: JBA Consulting, Skipton, North Yorkshire, UK
+  - partner: National Institute of Water and Atmospheric Research (NIWA), Christchurch, NZ
+  - partner: Newcastle University, UK
+  - partner: Provincial Government of Carinthia, Klagenfurt, AT
+  - partner: Spanish Research Council (CSIC), Zaragoza, ES
+  - partner: Tel-Hai Academic College, IL
+  - partner: University at Albany, NY, US
+  - partner: University of British Columbia, CA
+  - partner: University of KwaZulu-Natal, Pietermaritzburg, ZA
+  - partner: University of Washington, Seattle, WA, US
+  funding:
+  - sponsor: Mountain Research Initiative (MRI)
+  - sponsor: Swiss National Science Foundation (SNSF)
   mediacoverage:
   - title: Neue Urner Zeitung
     url: https://www.geography.unibe.ch/unibe/portal/fak_naturwis/e_geowiss/c_igeogr/content/e39647/e39660/e39663/e100876/e874921/e112166/2009_09_18_NUZ2009_ger.pdf
@@ -146,7 +194,8 @@
   subtitle: Comprehensive flood-hydrological assessment of 450 meso-scale, mostly ungauged catchments with hydrological modelling (PREVAHregHQ)
   years: 2008–2010
   where: University of Bern
-  funding: Swiss Federal Office for the Environment (FOEN)
+  funding:
+  - sponsor: Swiss Federal Office for the Environment (FOEN)
   moreinfo:
   - text: Project description
     url: "https://www.bafu.admin.ch/bafu/en/home/topics/water/state/water--methods/foundations-of-flood-forecasting-in-meso-scale-catchment-areas-o.html"
@@ -159,8 +208,11 @@
   subtitle: Coupling of process-oriented hydrological modelling (PREVAH) and hydraulic modelling (FLORIS)
   years: 2007–2009
   where: University of Bern
-  collaboration: Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf§TK Consult AG, Zürich
-  funding: Amt für Abfall, Wasser, Energie und Luft (AWEL), Canton of Zürich
+  collaboration:
+  - partner: Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf
+  - partner: TK Consult AG, Zürich
+  funding:
+  - sponsor: Amt für Abfall, Wasser, Energie und Luft (AWEL), Canton of Zürich
   mediacoverage:
   - title: TEC21
     url: https://www.espazium.ch/de/aktuelles/unberechenbare-sihl
@@ -170,8 +222,10 @@
   subtitle: Sensitivity analyses based on process-oriented hydrological modelling
   years: 2006–2008
   where: University of Bern
-  collaboration: Swiss Federal Office of Meteorology and Climatology (MeteoSwiss)
-  funding: Swiss Federal Office for the Environment (FOEN)
+  collaboration:
+  - partner: Swiss Federal Office of Meteorology and Climatology (MeteoSwiss)
+  funding:
+  - sponsor: Swiss Federal Office for the Environment (FOEN)
   moreinfo:
   - text: Project report
     url: "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/publikationen-studien/publikationen/ereignisanalyse-hochwasser-2005-analyse-von-prozessen-massnahmen-und-gefahrengrundlagen.html"
@@ -181,8 +235,11 @@
   subtitle: Scenario and historical analyses using process-oriented hydrological modelling
   years: 2006–2007
   where: University of Bern
-  collaboration: Swiss Federal Office of Meteorology and Climatology (MeteoSwiss)§TK Consult AG, Zürich
-  funding: Amt für Abfall, Wasser, Energie und Luft (AWEL), Canton of Zürich
+  collaboration:
+  - partner: Swiss Federal Office of Meteorology and Climatology (MeteoSwiss)
+  - partner: TK Consult AG, Zürich
+  funding:
+  - sponsor: Amt für Abfall, Wasser, Energie und Luft (AWEL), Canton of Zürich
   mediacoverage:
   - title: Neue Zürcher Zeitung
     url: /documents/Meier_2007_NZZ.pdf
@@ -193,18 +250,24 @@
   subtitle: Combination of process-oriented hydrological modelling and Geographic Information Systems GIS
   years: 2005–2006
   where: University of Bern
-  collaboration: econcept GmbH, Zürich
-  funding: Swiss Federal Office of Energy (SFOE)
+  collaboration:
+  - partner: econcept GmbH, Zürich
+  funding:
+  - sponsor: Swiss Federal Office of Energy (SFOE)
 
 - title: Network building among scientific staff in mountain hydrology
   subtitle: Initiation of work on global mountain water resources assessments
   years: 2005–2007
   where: University of Bern
-  collaboration: Sorbonne University, Paris, FR§Utrecht University, NL
-  funding: Association of Intermediate Staff, University of Bern (MVUB)
+  collaboration:
+  - partner: Sorbonne University, Paris, FR
+  - partner: Utrecht University, NL
+  funding:
+  - sponsor: Association of Intermediate Staff, University of Bern (MVUB)
 
 - title: Process-based flood estimation for ungauged mesoscale catchments in Switzerland
   subtitle: Further development and application of the hydrological modelling system PREVAH
   years: 2002–2007
   where: University of Bern§Swiss Federal Institute of Technology, Zurich (ETHZ)
-  funding: Swiss Federal Office for Water and Geology (FOWG)
+  funding:
+  - sponsor: Swiss Federal Office for Water and Geology (FOWG)

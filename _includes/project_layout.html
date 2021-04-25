@@ -25,7 +25,13 @@
 	<tr valign="top">
 		<td align="right">Collaboration:</td>
 		<td/>
-		<td>{{ item.collaboration | replace:'§',' · '}}</td>
+		<td>
+			{% assign items = item.collaboration %}
+			{% for entry in item.collaboration %}
+				{{ entry.partner }}
+				{% if entry.partner != items.last.partner %}· {% endif %}
+			{% endfor %}
+		</td>
 	</tr>
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}
@@ -33,7 +39,13 @@
 	<tr valign="top">
 		<td align="right">Funding:</td>
 		<td/>
-		<td>{{ item.funding | replace:'§',' · '}}</td>
+		<td>
+			{% assign items = item.funding %}
+			{% for entry in item.funding %}
+				{{ entry.sponsor }}
+				{% if entry.sponsor != items.last.sponsor %}· {% endif %}
+			{% endfor %}
+		</td>
 	</tr>
 	<tr style="height:0.25em"><td/></tr>
 {% endif %}

@@ -1,3 +1,6 @@
+# for book chapters can use "authorship" field to e.g. add "contributions to" before
+# list of editors (and omit authors and chapter title)
+
 - authors: Seibert J, Jenicek M, Huss N, Ewen T, Viviroli D
   year: 2021
   title: Snow and Ice in the Hydrosphere
@@ -34,6 +37,7 @@
   publisher: WSL
   place: Birmensdorf
   pages: 222–226
+  openaccess: Y
   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
   pdf_external: Y
   new: Y
@@ -48,6 +52,7 @@
   publisher: WSL
   place: Birmensdorf
   pages: 227-232
+  openaccess: Y
   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
   pdf_external: Y
   new: Y
@@ -62,6 +67,7 @@
   publisher: WSL
   place: Birmensdorf
   pages: 233-235
+  openaccess: Y
   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
   pdf_external: Y
   new: Y
@@ -76,6 +82,7 @@
   publisher: WSL
   place: Birmensdorf
   pages: 75–86
+  openaccess: Y
   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
   pdf_external: Y
   new: Y
@@ -90,6 +97,7 @@
   publisher: WSL
   place: Birmensdorf
   pages: 31–40
+  openaccess: Y
   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
   pdf_external: Y
   new: Y
@@ -103,6 +111,7 @@
   place: Bern
   chapterdoi: 10.3929/ethz-b-000462775
   pages: 38–50
+  openaccess: Y
   pdf: https://doi.org/10.3929/ethz-b-000462775
   pdf_external: Y
   new: Y
@@ -116,6 +125,7 @@
   place: Geneva
   pages: 131–202
   pdf: https://report.ipcc.ch/srocc/pdf/SROCC_FinalDraft_Chapter2.pdf
+  openaccess: Y
   pdf_text: Download chapter pdf
   pdf_external: Y
   links:
@@ -209,6 +219,7 @@
   place: Bern
   isbn: 978-3-95202620-5
   tafel: 6.4
+  openaccess: Y
   pdf: https://hydrologischeratlas.ch/produkte/druckausgabe/wasserhaushalt/tafel-6-4
   pdf_text: Download pdf and data
   pdf_external: Y

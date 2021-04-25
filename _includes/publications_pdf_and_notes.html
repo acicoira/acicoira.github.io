@@ -1,7 +1,14 @@
+<!-- open access (also for data) -->
+{% if item.openaccess %}
+  <div class="tooltip">
+    <i class="ai ai-open-access"></i>
+    <span class="tooltiptext">Open access</span>
+  </div>
+{% endif %}
 
 <!-- publication pdf -->
 {% if item.pdf %}
-    {% if item.pdf_text %}
+  {% if item.pdf_text %}
 	  {% capture pdf_text %}{{ item.pdf_text }}{% endcapture %}
   {% else %}
 	  {% capture pdf_text %}Download pdf{% endcapture %}
@@ -14,12 +21,6 @@
         <span class="tooltiptext">External link</span>
       </div>
     </a>
-  {% endif %}
-  {% if item.pdf_openaccess %}
-    <div class="tooltip">
-      <i class="ai ai-open-access"></i>
-      <span class="tooltiptext">Open access</span>
-    </div>
   {% endif %}
 {% endif %}
 
