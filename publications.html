@@ -428,8 +428,8 @@ title: Publications
 				{% endif %}
 				<b>{{ item.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
 				{{ item.year }}.</b>
-				<i>{{ item.title }}</i>.
-				{{ item.repository }},
+				{{ item.title }}.
+				<i>{{ item.repository }}</i>,
 				<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
 				{% include publications_pdf_and_notes.html %}
 			</li>

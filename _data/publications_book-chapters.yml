@@ -184,6 +184,7 @@
   isbn: 978-3-95202620-5
   pdf: https://hydrologischeratlas.ch/produkte/druckausgabe/wasserhaushalt/tafel-6-5
   tafel: 6.5
+  openaccess: Y
   pdf_text: Download pdf and data
   pdf_external: Y
 
@@ -196,6 +197,7 @@
   place: Bern
   isbn: 978-3-905835-16-8
   pages: 10–19
+  openaccess: Y
   pdf: documents/Viviroli_et_al_2009_COP15_2.pdf
 
 - authors: Schwanbeck J, Viviroli D, Weingartner R, Frei C, Schumann A
@@ -208,6 +210,7 @@
   publisher: Bundesamt für Umwelt (BAFU)
   place: Bern
   pages: 48–58
+  openaccess: Y
   pdf: https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/publikationen-studien/publikationen/ereignisanalyse-hochwasser-2005-analyse-von-prozessen-massnahmen-und-gefahrengrundlagen.html
   pdf_external: Y
 

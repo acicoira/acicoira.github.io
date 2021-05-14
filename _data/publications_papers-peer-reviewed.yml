@@ -1,3 +1,20 @@
+- authors: Kummu M, Heino M, Taka M, Varis O, Viviroli D
+  year: 2021
+  title: Climate change risks to push one-third of global food production outside Safe Climatic Space
+  journal: One Earth
+  volume: 4
+  pages: 1–10
+  doi: 10.1016/j.oneear.2021.04.017
+  pdf: https://www.cell.com/one-earth/fulltext/S2590-3322(21)00236-0#
+  openaccess: Y
+  mediacoverage:
+  - title: press release (Aalto University, English)
+    url: https://www.aalto.fi/en/news/climate-change-threatens-one-third-of-global-food-production
+    external: Y
+  - title: press release (Aalto University, Finnish)
+    url: https://www.aalto.fi/fi/uutiset/tuore-tutkimus-ilmastonmuutos-uhkaa-jopa-kolmannesta-maailman-ruoantuotannosta
+    external: Y
+  new: Y
 
 - authors: Viviroli D, Kummu M, Meybeck M, Kallio M, Wada Y
   year: 2020
