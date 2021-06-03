@@ -6,6 +6,7 @@
   pages: 720–729
   doi: 10.1016/j.oneear.2021.04.017
   pdf: https://www.cell.com/one-earth/fulltext/S2590-3322(21)00236-0#
+  pdf_external: Y
   openaccess: Y
   mediacoverage:
   - title: Press release (Aalto University, English)
@@ -20,6 +21,19 @@
   - title: MTV Uutiset
     url: https://www.mtvuutiset.fi/artikkeli/ilmastonmuutos-uhkaa-kolmasosaa-maailman-ruoantuotannosta-suomi-saattaa-menettaa-havumetsat/8142182?mtv_ref=twb_uutiset_uusimmat#gs.0tc156
     external: Y
+  new: Y
+
+- authors: Shahgedanova M, Adler C, Gebrekirstos A, Grau HR, Huggel C, Marchant R, Pepin N, Vanacker V, Viviroli D, Vuille M
+  year: 2021
+  title: "Mountain Observatories: Status and Prospects for Enhancing and Connecting a Global Community"
+  journal: Mountain Research and Development
+  volume: 41(2)
+  pages: A1-A15
+  doi: 10.1659/MRD-JOURNAL-D-20-00054.1
+  pdf: https://bioone.org/journalArticle/Download?fullDOI=10.1659%2FMRD-JOURNAL-D-20-00054.1
+  pdf_text: Download pdf
+  pdf_external: Y
+  openaccess: Y
   new: Y
 
 - authors: Viviroli D, Kummu M, Meybeck M, Kallio M, Wada Y
