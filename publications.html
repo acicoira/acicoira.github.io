@@ -88,9 +88,15 @@ title: Publications
 					{% else %}
 						{{ item.volume }}.
 					{% endif %}
-				{% elsif item.issue and item.doi %}
+				{% elsif item.special_issue %}
+					{{ item.special_issue }},
+					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+				{% elsif item.issue and item.pages and item.doi %}
 					<b>{{ item.volume }}</b>({{ item.issue }}),
 					{{ item.pages }},
+					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+				{% elsif item.volume and item.issue == null and item.pages == null and item.doi %}
+					<b>{{ item.volume }}</b>,
 					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
 				{% elsif item.issue and item.doi == null %}
 					<b>{{ item.volume }}</b>({{ item.issue }}),

@@ -39,7 +39,8 @@
   year: 2021
   title: "Mountain observatories: status and prospects for enhancing and connecting a global community"
   journal: Mountain Research and Development
-  volume: 41(2)
+  volume: 41
+  issue: 2
   pages: A1–A15
   doi: 10.1659/MRD-JOURNAL-D-20-00054.1
   pdf: https://bioone.org/journalArticle/Download?fullDOI=10.1659%2FMRD-JOURNAL-D-20-00054.1
@@ -95,7 +96,7 @@
   year: 2020
   title: Hydrologic model calibration with uncertain discharge data
   journal: Hydrological Sciences Journal
-  volume: published online
+  special_issue: "Special Issue: Hydrological Data: Opportunities And Barriers"
   doi: 10.1080/02626667.2020.1735638
   pdf: /documents/Westerberg_et_al_2020_HSJ.pdf
 
