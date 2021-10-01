@@ -27,12 +27,12 @@
   year: 2021
   title: Comparing model complexity for glacio-hydrological simulation in the data-scarce Peruvian Andes
   journal: "Journal of Hydrology: Regional Studies"
-  volume: accepted
+  volume: 37
   # pages: XXXX–XXXX
-  # doi: 10.1016/j.ejrh.2021
-  # pdf: XXXXXXXXXXXXXXXXX
-  # pdf_external: Y
-  # openaccess: Y
+  doi: 10.1016/j.ejrh.2021
+  pdf: https://www.sciencedirect.com/science/article/pii/S2214581821001610/pdfft?md5=1a7bce2fb287cfdc7ffec9cc16f3a8ba&pid=1-s2.0-S2214581821001610-main.pdf
+  pdf_external: Y
+  openaccess: Y
   new: Y
 
 - authors: Shahgedanova M, Adler C, Gebrekirstos A, Grau HR, Huggel C, Marchant R, Pepin N, Vanacker V, Viviroli D, Vuille M
