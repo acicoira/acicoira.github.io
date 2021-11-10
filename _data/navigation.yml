@@ -4,9 +4,9 @@
 - title: About
   url: /about.html
 
-- title: Jobs
-  url: /jobs.html
-
+# - title: Jobs
+#   url: /jobs.html
+#
 - title: Publications
   url: /publications.html
   submenu:
