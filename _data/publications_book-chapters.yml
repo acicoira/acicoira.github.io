@@ -1,7 +1,7 @@
 # for book chapters can use "authorship" field to e.g. add "contributions to" before
 # list of editors (and omit authors and chapter title)
 
-- authors: Seibert J, Jenicek M, Huss N, Ewen T, Viviroli D
+- authors: Seibert J, Jenicek M, Huss M, Ewen T, Viviroli D
   year: 2021
   title: Snow and Ice in the Hydrosphere
   editors: Haeberli W, Whiteman C
