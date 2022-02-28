@@ -1,6 +1,19 @@
 # for book chapters can use "authorship" field to e.g. add "contributions to" before
 # list of editors (and omit authors and chapter title)
 
+- authors: "Adler C, Wester P, Bhatt I, Huggel C, Insarov G, Morecroft M, Muccione V, Prakash A, Alcántara-Ayala I, Allen SK, Bader M, Bigler S, Camac J, Chakraborty R, Cuni A, Cuvi N, Drenkhan F, Hussain A, Maharjan A, Marchant R, McDowell G, Morin S, Niggli L, Ochoa A, Pandey A, Postigo J, Razanatsoa E, Rudloff VM, Scott C, Stevens M, Stone D, Thorn J, Thornton J, Viviroli D, Werners S"
+  year: 2022
+  title: "Cross-Chapter Paper 5: Mountains"
+  editors: Intergovernmental Panel on Climate Change (IPCC)
+  booktitle: "Climate Change 2022: Impacts, Adaptation and Vulnerability. Working Group II contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change"
+  publisher: Intergovernmental Panel on Climate Change (IPCC)
+  place: Geneva
+  pdf: "https://report.ipcc.ch/ar6wg2/pdf/IPCC_AR6_WGII_CrossChapterPaper5.pdf"
+  openaccess: Y
+  pdf_text: Download chapter pdf
+  pdf_external: Y
+  new: Y
+
 - authors: Seibert J, Jenicek M, Huss M, Ewen T, Viviroli D
   year: 2021
   title: Snow and Ice in the Hydrosphere
@@ -114,7 +127,6 @@
   openaccess: Y
   pdf: https://doi.org/10.3929/ethz-b-000462775
   pdf_external: Y
-  new: Y
 
 - authors: "Hock R, Rasul G, Adler C, Cáceres B, Gruber S, Hirabayashi Y, Jackson M, Kääb A, Kang S, Kutuzov S, Milner A, Molau U, Morin S, Orlove B, Steltzer H, Allen S, Arenson L, Baneerjee S, Barr I, Bórquez R, Brown L, Cao B, Carey M, Cogley G, Fischlin A, de Sherbinin A, Eckert N, Geertsema M, Hagenstad M, Honsberg M, Hood E, Huss M, Jimenez Zamora E, Kotlarski S, Lefeuvre PM, López Moreno JI, Lundquist J, McDowell G, Mills S, Mou C, Nepal S, Noetzli J, Palazzi E, Pepin N, Rixen C, Shahgedanova M, Skiles SM, Vincent C, Viviroli D, Weyhenmeyer G, Sherpa PY, Weyer N, Wouters B, Yasunari TJ, You Q, Zhang Y"
   year: 2019
@@ -132,10 +144,10 @@
   - url: https://www.ipcc.ch/srocc/chapter/chapter-2/
     text: Access chapter online
     link_external: Y
-  # mediacoverage:
-  # - title: Die Zeit
-  #   url: https://www.zeit.de/wissen/umwelt/2019-09/sonderbericht-klimawandel-ipcc-report-ergebnisse-weltklimarat-klimaschutz
-  #   external: Y
+  mediacoverage:
+  - title: Die Zeit
+    url: https://www.zeit.de/wissen/umwelt/2019-09/sonderbericht-klimawandel-ipcc-report-ergebnisse-weltklimarat-klimaschutz
+    external: Y
 
 - authors: Viviroli D
   year: 2013
