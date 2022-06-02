@@ -285,6 +285,11 @@
   pdf: https://www.hydrol-earth-syst-sci.net/17/619/2013/hess-17-619-2013.pdf
   openaccess: Y
   pdf_external: Y
+  notes:
+    - text: "Featured as highlight paper"
+      highlight: Y
+      url: https://www.hydrology-and-earth-system-sciences.net/articles_and_preprints/highlight_articles.html
+      external: Y
 
 - authors: Viviroli D, Schädler B, Schmocker-Fackel P, Weiler M, Seibert J
   year: 2012
