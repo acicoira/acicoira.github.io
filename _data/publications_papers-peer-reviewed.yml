@@ -1,3 +1,15 @@
+- authors: Thornton J, Snethlage MA, Sayre R, Urbach DR, Viviroli D, Ehrlich D, Muccione V, Wester P, Insarov G, Adler C
+  year: 2022
+  title: "Human populations in the world’s mountains: spatio-temporal patterns and potential controls"
+  journal: PLOS ONE
+  volume: accepted
+  # pages: xxxxxxxxxxxxxxxxxxxxxxxxxxx
+  # doi: xxxxxxxxxxxxxxxxxxxxxxx
+  # pdf: xxxxxxxxxxxxxxxxxxxxxxxxxx
+  # pdf_external: Y
+  openaccess: Y
+  new: Y
+
 - authors: Kummu M, Heino M, Taka M, Varis O, Viviroli D
   year: 2021
   title: Climate change risks to push one-third of global food production outside Safe Climatic Space
@@ -31,7 +43,7 @@
   title: Comparing model complexity for glacio-hydrological simulation in the data-scarce Peruvian Andes
   journal: "Journal of Hydrology: Regional Studies"
   volume: 37
-  # pages: XXXX–XXXX
+  pages: 100932
   doi: 10.1016/j.ejrh.2021.100932
   pdf: https://www.sciencedirect.com/science/article/pii/S2214581821001610/pdfft?md5=1a7bce2fb287cfdc7ffec9cc16f3a8ba&pid=1-s2.0-S2214581821001610-main.pdf
   pdf_external: Y
