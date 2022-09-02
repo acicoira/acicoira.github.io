@@ -1,3 +1,20 @@
+- authors: Viviroli D, Sikorska-Senoner AE, Evin G, Staudinger M, Kauzlaric M, Chardon J, Favre AC, Hingray B, Nicolet G, Raynaud D, Seibert J, Weingartner R, Whealton C
+  year: 2022
+  title: Comprehensive space-time hydrometeorological simulations for estimating very rare floods at multiple sites in a large river basin
+  journal: Natural Hazards and Earth System Sciences
+  volume: 22
+  pages: 2891–2920
+  doi: 10.5194/nhess-22-2891-2022
+  pdf: https://nhess.copernicus.org/articles/22/2891/2022/nhess-22-2891-2022.pdf
+  pdf_external: Y
+  openaccess: Y
+  notes:
+    - text: "Featured as highlight paper"
+      highlight: Y
+      # url: https://www.natural-hazards-and-earth-system-sciences.net/articles_and_preprints/highlight_articles.html
+      external: Y
+  new: Y
+
 - authors: Thornton J, Snethlage MA, Sayre R, Urbach DR, Viviroli D, Ehrlich D, Muccione V, Wester P, Insarov G, Adler C
   year: 2022
   title: "Human populations in the world’s mountains: spatio-temporal patterns and potential controls"
