@@ -46,7 +46,9 @@
   publisher: Geographisches Institut der Universität Bern
   place: Bern
   isbn: 978-3-90583500-7
-  pdf: /documents/Viviroli_2007_G77.pdf
+  pdf: https://boris.unibe.ch/165989/1/Viviroli_2007_G77.pdf
+  pdf_external: Y
+  openaccess: Y
   mediacoverage:
   - title: Neue Zürcher Zeitung
     url: /documents/Denzler_2008_NZZ.pdf
