@@ -30,7 +30,8 @@ title: Publications
 <a class="anchor" id="JP"></a>
 <ol reversed="">
 	{% for item in site.data.publications_papers %}
-		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
+<!-- 		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %} -->
+		{% if item.new == "Y" and shownewonly == true %}
 			<li>
 				{% if item.new == "Y" %}
 					<div class="tooltip">
