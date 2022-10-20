@@ -9,17 +9,6 @@
   openaccess: Y
   new: Y
 
-- authors: Cicoira, A., Marcer, M., Gärtner-Roer, I., Bodin, X., Arenson, L.U., and Vieli, A.
-  year: 2021
-  title: A general theory of rock glacier creep based on in-situ and remote sensing observations
-  journal: Permafrost and Periglac Process
-  volume: 32
-  pages: 139-153
-  doi: https://doi.org/10.1002/ppp.2090 
-  pdf_external: Y
-  openaccess: Y
-  new: Y
-  
   - authors: Cicoira, A., Marcer, M., Gärtner-Roer, I., Bodin, X., Arenson, L.U., and Vieli, A.
   year: 2021
   title: A general theory of rock glacier creep based on in-situ and remote sensing observations
@@ -30,7 +19,18 @@
   pdf_external: Y
   openaccess: Y
   new: Y
-    
+
+- authors: Cicoira, A., Beutel J., Faillettaz J., and Vieli, A.
+  year: 2019
+  title: Water controls the seasonal rhythm of rock glacier flow
+  journal: Permafrost and Periglac Process
+  volume: 528
+  pages: 
+  doi: https://doi.org/10.1016/j.epsl.2019.115844
+  pdf_external: Y
+  openaccess: Y
+  new: Y
+  
   - authors: Cicoira, A., Beutel, J., Faillettaz, J., Gärtner-Roer, I., and Vieli, A.
   year: 2019
   title: Resolving the influence of temperature forcing through heat conduction on rock glacier dynamics: a numerical modelling approach
