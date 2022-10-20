@@ -1,19 +1,17 @@
-# dviviroli.github.io
+# acicoira.github.io
 
-Homepage of Daniel Viviroli
+Website of Alessandro Cicoira
 
-Info on my research into water in mountain areas,
-and some selected photographs
+Here, you can find some information about my research on natural hazards in mountain areas.
 
 Keywords:
-water towers,
-mountain hydrology,
-water resources,
-flood estimation,
 natural hazards,
-hydrological modelling,
-hydraulic engineering,
-regionalisation,
-climate change,
-global change,
-Geographic Information Systems (GIS)
+permafrost,
+rock glaciers,
+ice avalanches,
+glacier lake outburst floods GLOFs,
+fluid dynamics,
+numerical modelling,
+river engineering,
+in-situ investigations,
+climate change.
