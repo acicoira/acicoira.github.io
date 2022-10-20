@@ -18,7 +18,7 @@
   doi: https://doi.org/10.1002/ppp.2090 
   pdf_external: Y
   openaccess: Y
-  new: Y
+  new: N
   
 - authors: Marcer, M., Cicoira, A., Cusicanqui, D., Bodin, X., Echelard, T., Obregon, R., and Schoeneich, P. 
   year: 2021
@@ -29,10 +29,7 @@
   doi: https://doi.org/10.1038/s43247-021-00150-6 
   pdf_external: Y
   openaccess: Y
-  new: Y  
-
-
-
+  new: N  
 
 - authors: Cicoira, A., Beutel J., Faillettaz J., and Vieli, A.
   year: 2019
@@ -43,7 +40,7 @@
   doi: https://doi.org/10.1016/j.epsl.2019.115844
   pdf_external: Y
   openaccess: Y
-  new: Y
+  new: N
   
 - authors: Cicoira, A., Beutel, J., Faillettaz, J., Gärtner-Roer, I., and Vieli, A.
   year: 2019
@@ -54,7 +51,7 @@
   doi: https://doi.org/10.5194/tc-13-927-2019
   pdf_external: Y
   openaccess: Y
-  new: Y
+  new: N
 
 # - authors: Viviroli D, Sikorska-Senoner AE, Evin G, Staudinger M, Kauzlaric M, Chardon J, Favre AC, Hingray B, Nicolet G, Raynaud D, Seibert J, Weingartner R, Whealton C
 #   year: 2022
