@@ -9,44 +9,9 @@
 #
 - title: Publications
   url: /publications.html
-  submenu:
-  - text: Preprints
-    anchor: PP
-  - text: Peer-reviewed
-    anchor: JP
-  - text: Authored monographs
-    anchor: BM
-  - text: Edited special issues
-    anchor: JE
-  - text: Edited books
-    anchor: BE
-  - text: Book chapters
-    anchor: BC
-  - text: Further journals, newspapers
-    anchor: JF
-  - text: Conference proceedings
-    anchor: CP
-  - text: Project reports
-    anchor: PR
-  - text: Data sets
-    anchor: DS
 
 - title: Projects
   url: /projects.html
-  submenu:
-  - text: Current
-    anchor: curr
-  - text: Completed
-    anchor: compl
 
 - title: Photography
   url: /photography.html
-  submenu:
-  - text: Water
-    anchor: wa
-  - text: Mountains
-    anchor: mo
-  - text: Weather
-    anchor: we
-  - text: Snow & ice
-    anchor: si
