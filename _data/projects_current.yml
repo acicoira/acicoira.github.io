@@ -6,13 +6,22 @@
   funding:
   - sponsor: Adaptation Fund (AF)
 
-- title: MAMMOC
-  subtitle: A Material Point Method for Alpine Mass Movements in a Climate Change Context
-  where: EPFL
+- title: RockDynAlps
+  subtitle: Rock Glacier Dynamics in the Swiss Alps
+  where: UZH
   collaboration:
-  - partner: SLF
-  - partner: Universtiy of Zurich
+  - partner: UniFr
+  - partner: UniL
+  - partner: SLF  
   funding:
   - sponsor: Swiss National Science Foundation (SNSF)
   
-  
+- title: PAMIR
+  subtitle: Rock Glacier Dynamics in the Swiss Alps
+  where: UZH
+  collaboration:
+  - partner: EPFL
+  - partner: WSL
+  - partner: ETHZ  
+  funding:
+  - sponsor: Swiss Polar Institute (SPI)
