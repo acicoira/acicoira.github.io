@@ -16,12 +16,13 @@
   funding:
   - sponsor: Swiss National Science Foundation (SNSF)
   
-- title: PAMIR From ice to microorganisms and humans
+- title: PAMIR
   subtitle: Toward an interdisciplinary understanding of climate change impacts on the Third Pole
   where: UZH
   collaboration:
   - partner: EPFL
   - partner: WSL
   - partner: ETHZ  
+  - partner: UniFr
   funding:
   - sponsor: Swiss Polar Institute (SPI)
