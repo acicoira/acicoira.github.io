@@ -26,3 +26,23 @@
   - partner: UniFr
   funding:
   - sponsor: Swiss Polar Institute (SPI)
+
+- title: MPMrockwalls
+  subtitle: A Material Point Method for Permafrost Rock Walls Instabilities 
+  where: UZH
+  collaboration:
+  - partner: EPFL
+  - partner: SLF
+  - partner: ETHZ  
+  - partner: UniL
+  funding:
+  - sponsor: Climact Cluster Grant (EPFL and UniL)
+  
+  - title: CCAM
+  subtitle: Cascading processes and uncertainties
+  where: UZH
+  collaboration:
+  - partner: SLF
+  - partner: ETHZ
+  funding:
+  - sponsor: WSL
