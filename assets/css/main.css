@@ -2922,7 +2922,7 @@
 			#header.alt h1 {
 				color: #ffffff;
 				font-size: 2em;
-				position: relative;
+				position: absolute;
 				left: 0.5em;
 				top: 0em;
 				line-height: 2.2;
