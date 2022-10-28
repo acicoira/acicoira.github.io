@@ -6,13 +6,13 @@
 
 - title: Publications
   url: /publications.html
-  submenu: 
-  - text: Peer-reviewed articles
-    anchor: PP
-  - text: Pre-prints
-    anchor: JP
-  - text: Book chapters
-    anchor: BC
+#   submenu: 
+#   - text: Peer-reviewed articles
+#     anchor: PP
+#   - text: Pre-prints
+#     anchor: JP
+#   - text: Book chapters
+#     anchor: BC
   
   
 - title: Projects
