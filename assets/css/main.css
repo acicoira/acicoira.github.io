@@ -2906,7 +2906,7 @@
 			}
 
 		#header.alt {
-			Background: #cecece42;
+			Background: rgba(144, 144, 144, 0.70);
 			border-bottom: none;
 			box-shadow: none;
 			animation: fadein;
