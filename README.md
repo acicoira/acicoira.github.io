@@ -15,3 +15,6 @@ numerical modelling,
 river engineering,
 in-situ investigations,
 climate change.
+
+
+The website design was adapted based on the code in: https://github.com/dviviroli/dviviroli.github.io by Daniel Viviroli.
