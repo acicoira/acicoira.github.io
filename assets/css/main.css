@@ -2906,7 +2906,7 @@
 			}
 
 		#header.alt {
-			background-color: #3a3a3a2e;
+			background-color: #fff;
 			border-bottom: none;
 			box-shadow: none;
 			animation: fadein;
@@ -2999,7 +2999,7 @@
 		}
 
 		.navPanelToggle *:before {
-			background: rgba(1, 144, 144, 0.65);
+			background: rgba(144, 144, 144, 0.65);
 			border-radius: 4px;
 			color: #fff;
 			display: block;
