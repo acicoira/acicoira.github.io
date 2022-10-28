@@ -17,3 +17,8 @@
   
 - title: Projects
   url: /projects.html
+  submenu:
+  - text: Current projects
+  anchor: CurP
+  - text: Completed projects
+  ancor: ComP
