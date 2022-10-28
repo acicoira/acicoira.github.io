@@ -2906,8 +2906,7 @@
 			}
 
 		#header.alt {
-			Background: White;
-			opacity: 0.1;
+			Background: cecece42;
 			border-bottom: none;
 			box-shadow: none;
 			animation: fadein;
