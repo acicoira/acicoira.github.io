@@ -2864,10 +2864,10 @@
 				}
 
 					#header nav ul li a, #header a {
-						-moz-transition: color 0.2s ease-in-out;
+/* 						-moz-transition: color 0.2s ease-in-out; */
 						-webkit-transition: color 0.2s ease-in-out;
-						-ms-transition: color 0.2s ease-in-out;
-						transition: color 0.2s ease-in-out;
+/* 						-ms-transition: color 0.2s ease-in-out; */
+/* 						transition: color 0.2s ease-in-out; */
 						color: black;
 						display: inline-block;
 						text-decoration: none;
