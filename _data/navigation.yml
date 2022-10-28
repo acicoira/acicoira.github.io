@@ -1,9 +1,6 @@
 - title: Home
   url: /index.html
 
-- title: About
-  url: /about.html
-
 - title: Publications
   url: /publications.html
   submenu: 
@@ -22,3 +19,6 @@
     anchor: curr
   - text: Completed
     anchor: compl
+
+- title: About
+  url: /about.html
