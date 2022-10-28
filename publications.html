@@ -27,7 +27,7 @@ title: Publications
 {% assign showaltmetric = false %}
 		
 <h2>Articles in peer-reviewed journals <small></small></h2>
-<a class="anchor" id="JP"></a>
+<a class="anchor" id="PR"></a>
 <ol reversed="">
 	{% for item in site.data.publications_papers %}
 		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
@@ -89,7 +89,7 @@ title: Publications
 </ol>
 
 <h2>Pre-prints in review <small></small></h2>
-<a class="anchor" id="JP"></a>
+<a class="anchor" id="PP"></a>
 <ol reversed="">
 	{% for item in site.data.publication_preprints %}
 		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
