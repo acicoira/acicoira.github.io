@@ -2906,7 +2906,8 @@
 			}
 
 		#header.alt {
-			background-color: transparent;
+			Background: White;
+			opacity: 0.1;
 			border-bottom: none;
 			box-shadow: none;
 			animation: fadein;
