@@ -5,9 +5,9 @@
   url: /publications.html
   submenu: 
   - text: Peer-reviewed
-    anchor: PP
+    anchor: PR
   - text: Pre-prints
-    anchor: JP
+    anchor: PP
   
   
 - title: Projects
