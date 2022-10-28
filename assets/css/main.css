@@ -2911,7 +2911,7 @@
 			box-shadow: none;
 			animation: fadein;
 			animation-duration: 2.5s;
-			position: absolute;
+			position: relative;
 			/* border: 0; */
 			/* box-shadow: none; */
 			/* height: 3.25em; */
