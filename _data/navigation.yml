@@ -8,11 +8,11 @@
   url: /publications.html
   submenu: 
   - text: Peer-reviewed articles
-  anchor: PP
+    anchor: PP
   - text: Pre-prints
-  anchor: JP
+    anchor: JP
   - text: Book chapters:
-  anchor: BC
+    anchor: BC
   
   
 - title: Projects
