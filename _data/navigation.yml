@@ -18,7 +18,7 @@
 - title: Projects
   url: /projects.html
   submenu:
-  - text: Current projects
+  - text: Current
     anchor: curr
-  - text: Completed projects
+  - text: Completed
     anchor: compl
