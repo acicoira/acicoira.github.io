@@ -1,6 +1,5 @@
 - title: GLOFCA  
   subtitle: Reducing vulnerabilities of Central Asian countries from Glacier Lake Outburst Floods
-  description: In the GLOFCA project, we blablabla. Moreover, we blablablabla... Finally, we blablablabla.
   where: University of Zurich
   collaboration:
   - partner: UNESCO
@@ -26,7 +25,7 @@
   - partner: ETHZ  
   - partner: UniFr
   funding:
-  - sponsor: Swiss Polar Institute (SPI)
+  - sponsor: Swiss Polar Institute (SPI) for logistics
 
 - title: MPMrockwalls
   subtitle: A Material Point Method for Permafrost Rock Walls Instabilities 
@@ -39,11 +38,3 @@
   funding:
   - sponsor: Climact Cluster Grant (EPFL and UniL)
   
-  - title: CCAM
-  subtitle: Cascading processes and uncertainties
-  where: UZH
-  collaboration:
-  - partner: SLF
-  - partner: ETHZ
-  funding:
-  - sponsor: WSL
