@@ -60,10 +60,10 @@ title: Fieldwork
 		{% for image in site.static_files %}
 			{% if image.path contains 'CA' %}
 				<article class="thumb">
-					<a href="{{ site.baseurl }}{{ site.image_CA_loc }}/{{ image.name }}" class="image">
-						<!-- <img class="lozad" data-src="{{ site.baseurl }}{{ site.image_CA_loc }}/{{ image.name }}"/> -->
+					<a href="{{ site.baseurl }}{{ site.image_CA }}/{{ image.name }}" class="image">
+						<!-- <img class="lozad" data-src="{{ site.baseurl }}{{ site.image_CA }}/{{ image.name }}"/> -->
 						<!-- <noscript> -->
-							<img src="{{ site.baseurl }}{{ site.image_CA_loc }}/{{ image.name }}"/>
+							<img src="{{ site.baseurl }}{{ site.image_CA }}/{{ image.name }}"/>
 						<!-- </noscript> -->
 					</a>
 				</article>
