@@ -1,0 +1,22 @@
+---
+layout: default
+title: Teaching
+---
+
+<h2>Courses (selection)</h2>
+<a class="anchor" id="teacc"></a>
+<table>
+	{% for item in site.data.projects_current %}
+		{% include project_layout.html %}
+	{% endfor %}
+</table>
+
+<hr/>
+
+<h2>Master Thesis (selection)</h2>
+<a class="anchor" id="teacm"></a>
+<table>
+	{% for item in site.data.projects_completed %}
+		{% include project_layout.html %}
+	{% endfor %}
+</table>
