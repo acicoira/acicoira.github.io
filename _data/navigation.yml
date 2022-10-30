@@ -24,6 +24,17 @@
     anchor: teacc
   - text: Master Thesis
     anchor: teacm
+    
+
+- title: Fieldwork
+  url: /fieldwork.html
+  submenu:
+  - text: European Alps
+    anchor: fieldAlps
+  - text: Greenland
+    anchor: fieldGreen
+  -text: Central Asia
+    anchor: fieldCA
 
 - title: About
   url: /about.html
