@@ -14,12 +14,12 @@ title: Fieldwork
 
 	<section id="main" class="wrapper">
 		{% for image in site.static_files %}
-			{% if image.path contains 'European Alps'%}
+			{% if image.path contains 'fulls' and image.path contains 'European Alps'%}
 				<article class="thumb">
-					<a href="{{ site.baseurl }}{{ site.image_European_Alps_loc }}/{{ image.name }}" class="image">
+					<a href="{{ site.baseurl }}{{ site.image_European_Alps_full_loc }}/{{ image.name }}" class="image">
 						<!-- <img class="lozad" data-src="{{ site.baseurl }}{{ site.image_water_thumbs_loc }}/{{ image.name }}"/> -->
 						<!-- <noscript> -->
-							<img src="{{ site.baseurl }}{{ site.image_European_Alps_loc }}/{{ image.name }}"/>
+							<img src="{{ site.baseurl }}{{ site.image_European_Alps_thumbs_loc }}/{{ image.name }}"/>
 						<!-- </noscript> -->
 					</a>
 				</article>
