@@ -36,12 +36,12 @@ title: Fieldwork
 
 	<section id="main" class="wrapper">
 		{% for image in site.static_files %}
-			{% if image.path contains 'fulls' and image.path contains 'mountains' %}
+			{% if image.path contains 'fulls' and image.path contains 'Greenland' %}
 				<article class="thumb">
-					<a href="{{ site.baseurl }}{{ site.image_mountains_fulls_loc }}/{{ image.name }}" class="image">
+					<a href="{{ site.baseurl }}{{ site.image_Greenland_fulls_loc }}/{{ image.name }}" class="image">
 						<!-- <img class="lozad" data-src="{{ site.baseurl }}{{ site.image_mountains_thumbs_loc }}/{{ image.name }}"/> -->
 						<!-- <noscript> -->
-							<img src="{{ site.baseurl }}{{ site.image_mountains_thumbs_loc }}/{{ image.name }}"/>
+							<img src="{{ site.baseurl }}{{ site.image_Greenland_thumbs_loc }}/{{ image.name }}"/>
 						<!-- </noscript> -->
 					</a>
 				</article>
