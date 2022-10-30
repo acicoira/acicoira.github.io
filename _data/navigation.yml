@@ -9,7 +9,6 @@
   - text: Pre-prints
     anchor: PP
   
-  
 - title: Projects
   url: /projects.html
   submenu:
@@ -17,6 +16,14 @@
     anchor: curr
   - text: Completed
     anchor: compl
+
+- title: Teaching
+  url: /teaching.html
+  submenu:
+  - text: Courses:
+    anchor: teacc
+  - text: Master Thesis
+    anchor: teacm
 
 - title: About
   url: /about.html
