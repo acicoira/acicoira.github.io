@@ -33,7 +33,7 @@
     anchor: fieldAlps
   - text: Greenland
     anchor: fieldGreen
-  -text: Central Asia
+  - text: Central Asia
     anchor: fieldCA
 
 - title: About
