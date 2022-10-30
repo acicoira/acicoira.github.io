@@ -14,9 +14,8 @@ image_weather_thumbs_loc: "/images/copyrighted/weather/thumbs"
 image_snow_ice_fulls_loc: "/images/copyrighted/snow_ice/fulls"
 image_snow_ice_thumbs_loc: "/images/copyrighted/snow_ice/thumbs"
 
-
-image_European_Alps_fulls_loc: "/images/copyrighted/European_Alps"
-image_European_Alps_thumbs_loc: "/images/copyrighted/European_Alps"
+image_European_Alps_fulls_loc: "/images/copyrighted/European_Alps/fulls"
+image_European_Alps_thumbs_loc: "/images/copyrighted/European_Alps/thumbs"
 
 image_CA_fulls_loc: "/images/copyrighted/CA/fulls"
 image_CA_thumbs_loc: "/images/copyrighted/CA/thumbs"
