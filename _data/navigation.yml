@@ -20,7 +20,7 @@
 - title: Teaching
   url: /teaching.html
   submenu:
-  - text: Courses:
+  - text: Courses
     anchor: teacc
   - text: Master Thesis
     anchor: teacm
