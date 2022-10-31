@@ -35,6 +35,8 @@
     anchor: fieldGreen
   - text: Central Asia
     anchor: fieldCA
+  - text: Alpinism
+    anchor: fieldSport  
 
 - title: About
   url: /about.html
