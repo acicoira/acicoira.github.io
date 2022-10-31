@@ -8,6 +8,8 @@
     anchor: PR
   - text: Pre-prints
     anchor: PP
+  - text: Book chapters
+    anchor: PB
   
 - title: Projects
   url: /projects.html
