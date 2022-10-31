@@ -6,7 +6,7 @@ title: Teaching
 <h2>Courses (selection)</h2>
 <a class="anchor" id="teacc"></a>
 <table>
-	{% for item in site.data.projects_current %}
+	{% for item in site.data.teaching_courses %}
 		{% include project_layout.html %}
 	{% endfor %}
 </table>
@@ -16,7 +16,7 @@ title: Teaching
 <h2>Master Thesis (selection)</h2>
 <a class="anchor" id="teacm"></a>
 <table>
-	{% for item in site.data.projects_completed %}
+	{% for item in site.data.teaching_masters %}
 		{% include project_layout.html %}
 	{% endfor %}
 </table>
