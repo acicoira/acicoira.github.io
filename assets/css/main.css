@@ -2920,7 +2920,7 @@
 
 			/*  Landing page left title */
 			#header.alt h1 {
-				color: #d70bb2;
+				color: #ffffff;
 				font-size: 2em;
 				position: relative;
 				left: 0.5em;
@@ -2939,7 +2939,7 @@
 			} */
 
 				#header.alt nav a {
-					color: #d70bb2;
+					color: #ffffff;
 				}
 
 				#header.alt nav a:hover {
