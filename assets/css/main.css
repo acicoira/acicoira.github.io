@@ -3392,8 +3392,8 @@
 		  margin: -12px 0 0 -8px;
 		  border-left: 1px solid #fff;
 		  border-bottom: 1px solid #fff;
-		  -webkit-transform: rotate(+90deg);
-		  transform: rotate(+90deg);
+		  -webkit-transform: rotate(-45deg);
+		  transform: rotate(-45deg);
 		  box-sizing: border-box;
 		}
 
