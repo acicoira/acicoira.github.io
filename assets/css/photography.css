@@ -819,7 +819,7 @@ input, select, textarea {
 				bottom: 1.875em;
 				font-size: 0.8em;
 				left: 2.1875em;
-				margin: 100;
+				margin: 0;
 				position: absolute;
 				z-index: 1;
 			}
