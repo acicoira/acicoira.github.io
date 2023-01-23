@@ -1,21 +1,33 @@
 - title: Numerical simulations of GLOF dynamics 
-  subtitle: International summer school with authorities and practitioners from Central Asia Republics. 
-  role: Organizer and main lecturer.
-  scope: Learn about required data, modelling, and post-processing of dynamic simulations. 
-  where: Almaty (Kazakhstan), July 2022
+  subtitle: International summer school with authorities and practitioners from Central Asia Republics 
+  role: Organizer and main lecturer
+  scope: Learn about required data, modelling, and post-processing of dynamic simulations 
+  where: Almaty (Kazakhstan)
+  year: summer 2022
   
 - title: Seminar in Geomorphology 
-  subtitle: Seminar series on high alpine geomorphology. 
+  subtitle: Seminar series on high alpine geomorphology
+  role: External speaker
+  scope: Present the current research frontier in rock glacier dynamics 
   where: University of Fribourg
+  year: spring 2020 and autumn 2021
   
 - title: Fieldcourse in glaciology 
-  subtitle: Seminars and Fieldcourse on field studies in glacial environments for Master students. 
+  subtitle: Seminars and Fieldcourse on field studies in glacial environments for Master students 
+  role: Lecturer in the seminars and tutor during the field campaign
+  scope: Learn about applied glaciological methods, develope autonomous research question and perform a project
   where: University of Zurich
+  year: 2016, 2017, and 2019
   
 - title: Glaciers and Permafrost
-  subtitle: Lectures about rock glacier dynamics. 
+  subtitle: Lectures about rock glacier dynamics
+  role: Lecturer
+  scope: Lecture about novel rock glacier and mass movements literature to Bachelor students 
   where: University of Zurich
+  year: 2018 
 
 - title: Small Group Teaching 
   subtitle: Seminar series on geographical topics for Bachelor students. 
+  role: Organizer and tutor for the seminar series
   where: University of Zurich
+  year: 2018
