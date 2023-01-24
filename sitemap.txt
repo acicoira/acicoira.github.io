@@ -1,7 +1,7 @@
 https://acicoira.github.io
 https://acicoira.github.io/index.html
+https://acicoira.github.io/about.html
 https://acicoira.github.io/publications.html
 https://acicoira.github.io/projects.html
 https://acicoira.github.io/teaching.html
 https://acicoira.github.io/fieldwork.html
-https://acicoira.github.io/about.html
