@@ -3,17 +3,17 @@
   years: 2016-2020
   where: University of Zurich
   collaboration:
-  - partner: ETH Zurich
-  - partner: FOEN
+  - partner: Eidgenössische Technische Hochschule Zürich
+  - partner: Federal Office for the Environment
   funding:
   - sponsor: nano-tera.ch
 
 - title: MAMMOC
   subtitle: A Material Point Method for Alpine Mass Movements in a Climate Change Context
   years: 2020-2021
-  where: EPFL
+  where: Ecole polytechnique fédérale de Lausanne
   collaboration:
-  - partner: SLF
+  - partner: Snow and Avalanche Research Centre SLF
   - partner: Universtiy of Zurich
   funding:
   - sponsor: Swiss National Science Foundation (SNSF)
@@ -21,9 +21,9 @@
 - title: RockDynDisko
   subtitle: Rock Glacier Dynamics on Disko Island
   years: 2019–2021
-  where: UZH
+  where: Universtiy of Zurich
   collaboration:
   - partner: Gamma Remote Sensing
-  - partner: ETHZ
+  - partner: Eidgenössische Technische Hochschule Zürich
   funding:
   - sponsor: Swiss Polar Institute (SPI)
