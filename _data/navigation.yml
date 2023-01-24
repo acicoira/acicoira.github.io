@@ -1,6 +1,9 @@
 - title: Home
   url: /index.html
 
+- title: About
+  url: /about.html
+
 - title: Publications
   url: /publications.html
   submenu: 
@@ -39,6 +42,3 @@
     anchor: fieldCA
   - text: Alpinism
     anchor: fieldSport  
-
-- title: About
-  url: /about.html
