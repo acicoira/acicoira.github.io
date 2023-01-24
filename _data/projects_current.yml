@@ -6,18 +6,21 @@
   funding:
   - sponsor: Adaptation Fund (AF)
 
-- title: RockDynAlps
-  subtitle: Rock Glacier Dynamics in the Swiss Alps
+- title: Rockglacier Dynamics in the Swiss Alps (RoDynAlps)
+  subtitle: investigating the long-term evolution of rock glacier dynamics in the Swiss Alps
+  role: Partner, writing the proposal (WP4), supervision of a PostDoc and co-supervision of a PhD student
   where: UZH
   collaboration:
   - partner: UniFr
   - partner: UniL
   - partner: SLF  
   funding:
-  - sponsor: Swiss National Science Foundation (SNSF)
+  - sponsor: research grant from the Swiss National Science Foundation (SNSF)
   
-- title: PAMIR
-  subtitle: Toward an interdisciplinary understanding of climate change impacts on the Third Pole
+- title: From ice to microorganisms and humans - Toward an interdisciplinary understanding of 
+climate change impacts on the Third Pole (PAMIR)
+  subtitle: finance logistics for interdisciplinary studies in the Pamir range
+  role: partner, support in writing the proposal, data management, and implementation of the project
   where: UZH
   collaboration:
   - partner: EPFL
@@ -25,10 +28,10 @@
   - partner: ETHZ  
   - partner: UniFr
   funding:
-  - sponsor: Swiss Polar Institute (SPI) for logistics
+  - sponsor: flagship initiative of the Swiss Polar Institute (SPI)
 
-- title: MPMrockwalls
-  subtitle: A Material Point Method for Permafrost Rock Walls Instabilities 
+- title: A Material Point Method for Permafrost Rock Walls Instabilities (MPM:rockwall)
+  subtitle: investigating slope instabilities in permafrost by means of field and numerical experiments
   where: UZH
   collaboration:
   - partner: EPFL
@@ -36,5 +39,5 @@
   - partner: ETHZ  
   - partner: UniL
   funding:
-  - sponsor: Climact Cluster Grant (EPFL and UniL)
+  - sponsor: Climact Cluster Grant from EPFL and UniL
   
