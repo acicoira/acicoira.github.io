@@ -1,5 +1,6 @@
 - title: X-Sense II  
   subtitle: Mems acoustic detectors for natural hazard warning systems
+  years: 2016-2020
   where: University of Zurich
   collaboration:
   - partner: ETH Zurich
@@ -9,6 +10,7 @@
 
 - title: MAMMOC
   subtitle: A Material Point Method for Alpine Mass Movements in a Climate Change Context
+  years: 2020-2021
   where: EPFL
   collaboration:
   - partner: SLF
@@ -18,6 +20,7 @@
   
 - title: RockDynDisko
   subtitle: Rock Glacier Dynamics on Disko Island
+  years: 2019–2021
   where: UZH
   collaboration:
   - partner: Gamma Remote Sensing
