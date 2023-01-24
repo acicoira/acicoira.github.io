@@ -1,13 +1,3 @@
-- title: X-Sense II  
-  subtitle: Mems acoustic detectors for natural hazard warning systems
-  years: 2016-2020
-  where: University of Zurich
-  collaboration:
-  - partner: Eidgenössische Technische Hochschule Zürich
-  - partner: Federal Office for the Environment
-  funding:
-  - sponsor: nano-tera.ch
-
 - title: MAMMOC
   subtitle: A Material Point Method for Alpine Mass Movements in a Climate Change Context
   years: 2020-2021
@@ -27,3 +17,13 @@
   - partner: Eidgenössische Technische Hochschule Zürich
   funding:
   - sponsor: Swiss Polar Institute (SPI)
+
+- title: X-Sense II  
+  subtitle: Mems acoustic detectors for natural hazard warning systems
+  years: 2016-2020
+  where: University of Zurich
+  collaboration:
+  - partner: Eidgenössische Technische Hochschule Zürich
+  - partner: Federal Office for the Environment
+  funding:
+  - sponsor: nano-tera.ch
