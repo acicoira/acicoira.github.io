@@ -42,7 +42,7 @@ title: Impressions from the field
 		  {% if image.path contains 'fulls' and image.path contains 'Greenland' %}
 			{% assign image_name_parts = image.name | split: "_" %}
 			{% assign caption_index = image_name_parts | size | minus: 1 %}
-			{% assign caption_text = image_name_parts[caption_index] | replace: ".jpg", "" %}
+			{% assign caption_text = image_name_parts[caption_index] | replace: ".JPG", "" %}
 			<article class="thumb">
 			  <a href="{{ site.baseurl }}{{ site.image_Greenland_fulls_loc }}/{{ image.name }}" class="image">
 				<img src="{{ site.baseurl }}{{ site.image_Greenland_thumbs_loc }}/{{ image.name }}" />
