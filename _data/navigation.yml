@@ -34,13 +34,13 @@
 - title: Fieldwork
   url: /fieldwork.html
   submenu:
-  - text: Fieldwork":" European Alps
+  - text: European Alps
     anchor: fieldAlps
-  - text: Fieldwork":" Greenland
+  - text: Greenland
     anchor: fieldGreen
-  - text: Fieldwork":" Central Asia
+  - text: Central Asia
     anchor: fieldCA
   - text: Alpinism
     anchor: fieldSport  
-  - text: Scifi (scientific figures)
+  - text: SciFi
     anchor: scifi
