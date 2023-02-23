@@ -32,26 +32,26 @@ title: Impressions from the field
 
 	<section id="main">
 		<div class="container">
-			<h2 style="padding-top: 2em">Greenland</h2>
-			<a class="anchor" id="fieldGreen"></a>
+		  <h2 style="padding-top: 2em">Greenland</h2>
+		  <a class="anchor" id="fieldGreen"></a>
 		</div>
-	</section>
-
-	<section id="main" class="wrapper" style="margin-left: 50px;">
+	  </section>
+	  
+	  <section id="main" class="wrapper" style="margin-left: 50px;">
 		{% for image in site.static_files %}
-			{% if image.path contains 'fulls' and image.path contains 'Greenland' %}
-				{% assign image_name_parts = image.name | split: "_" %}
-				{% assign caption_index = image_name_parts | size | minus: 1 %}
-				{% assign caption_text = image_name_parts[caption_index] | replace: ".jpg",
-				<article class="thumb">
-					<a href="{{ site.baseurl }}{{ site.image_Greenland_fulls_loc }}/{{ image.name }}" class="image">
-						<img src="{{ site.baseurl }}{{ site.image_Greenland_thumbs_loc }}/{{ image.name }}"/>
-					</a>
-					<p>{{ caption_text }}</p>
-				</article>
-			{% endif %}
+		  {% if image.path contains 'fulls' and image.path contains 'Greenland' %}
+			{% assign image_name_parts = image.name | split: "_" %}
+			{% assign caption_index = image_name_parts | size | minus: 1 %}
+			{% assign caption_text = image_name_parts[caption_index] | replace: ".jpg", "" %}
+			<article class="thumb">
+			  <a href="{{ site.baseurl }}{{ site.image_Greenland_fulls_loc }}/{{ image.name }}" class="image">
+				<img src="{{ site.baseurl }}{{ site.image_Greenland_thumbs_loc }}/{{ image.name }}" />
+			  </a>
+			  <p>{{ caption_text }}</p>
+			</article>
+		  {% endif %}
 		{% endfor %}
-	</section>
+	  </section>
 
 	<section id="main">
 		<div class="container">
