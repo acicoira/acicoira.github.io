@@ -1,4 +1,15 @@
-- authors: Mariani, A., Abrahamsen, A.B., Bridle, D., Ingeman-Nielsen, T., Cicoira, A., Monti, F., and Marcer, M. 
+- authors: Leinauer, J., Weber, S., Cicoira, A., Beutel, J., & Krautblatter, M.  
+  year: 2023
+  title: An approach for prospective forecasting of rock slope failure time
+  journal: Nature Communication Earth Environment
+  volume: 4
+  pages: 1–11
+  doi: https://doi.org/10.1038/s43247-023-00909-z
+  pdf_external: Y
+  openaccess: Y
+  new: Y
+  
+  - authors: Mariani, A., Abrahamsen, A.B., Bridle, D., Ingeman-Nielsen, T., Cicoira, A., Monti, F., and Marcer, M. 
   year: 2023
   title: Snowpack and avalanche characterization over the 2021–2022 winter season in Sisimiut, West Greenland
   journal: Frontiers in Earth Sciences
@@ -7,7 +18,7 @@
   doi: https://doi.org/10.3389/feart.2023.1134728
   pdf_external: Y
   openaccess: Y
-  new: N
+  new: Y
     
 - authors: Tielidze, L., Cicoira, A., Nosenko, G., and Eaves S.
   year: 2023
@@ -57,7 +68,7 @@
 - authors: Cicoira, A., Marcer, M., Gärtner-Roer, I., Bodin, X., Arenson, L.U., and Vieli, A.
   year: 2021
   title: A general theory of rock glacier creep based on in-situ and remote sensing observations
-  journal: Permafrost and Periglac Process
+  journal: Permafrost and Periglacial Processes
   volume: 32
   pages: 139-153
   doi: https://doi.org/10.1002/ppp.2090 
