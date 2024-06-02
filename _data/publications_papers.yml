@@ -1,4 +1,38 @@
-- authors: Leinauer, J., Weber, S., Cicoira, A., Beutel, J., & Krautblatter, M.  
+
+
+- authors: Weber, S., Cicoira, A.  
+  year: (in review)
+  title: Empirically-determined thermal diffusivity of mountain permafrost
+  journal: Geophysical Research Letters
+  openaccess: N
+  new: Y
+
+  - authors: Muñoz-Torrero, A., Allen, S., Cicoira, A., Stoffel, M.
+  year: 2024
+  title: 100 years of monitoring in the Swiss National Park reveals overall decreasing rock glacier velocities
+  journal: Communications Earth and Environment
+  volume: 5
+  pages: 1–18
+  doi: https://doi.org/10.1038/s43247-024-01302-0
+  pdf_external: Y
+  openaccess: Y
+  new: N
+  
+
+
+  - authors: Meyerat, G., Munch, J., Cicoira, A., McArdell, B., Müller, C. R., Frey, H., Bartelt, P.  
+  year: 2023
+  title: Simulating glacier lake outburst floods (GLOFs) with a two-phase/layer debris flow model considering fluid-solid flow transitions
+  journal: Landslides
+  volume: 21
+  pages: 1–101-21
+  doi: https://doi.org/10.1007/s10346-023-02157-w
+  pdf_external: Y
+  openaccess: Y
+  new: N
+  
+  
+  - authors: Leinauer, J., Weber, S., Cicoira, A., Beutel, J., & Krautblatter, M.  
   year: 2023
   title: An approach for prospective forecasting of rock slope failure time
   journal: Nature Communication Earth Environment
@@ -7,7 +41,7 @@
   doi: https://doi.org/10.1038/s43247-023-00909-z
   pdf_external: Y
   openaccess: Y
-  new: Y
+  new: N
   
 - authors: Mariani, A., Abrahamsen, A.B., Bridle, D., Ingeman-Nielsen, T., Cicoira, A., Monti, F., and Marcer, M. 
   year: 2023
@@ -18,7 +52,7 @@
   doi: https://doi.org/10.3389/feart.2023.1134728
   pdf_external: Y
   openaccess: Y
-  new: Y
+  new: N
     
 - authors: Tielidze, L., Cicoira, A., Nosenko, G., and Eaves S.
   year: 2023
